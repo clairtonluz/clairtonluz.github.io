@@ -80,6 +80,55 @@ Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, 
 Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
 
 </p>
+  			<a href="/blog/2013/01/20140130.html"><h1>Comandos para mongoDB shell</h1></a>
+  			<p>30 January 2014</p>
+  			<p>
+
+<p dir="ltr"><strong>documentos em uso para exemplos</strong></p>
+<p dir="ltr">coleção de <strong>students</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/8851555.js"></script>
+
+<p dir="ltr">coleção de <strong>teachers
+</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/8851569.js"></script>
+
+<p dir="ltr"><strong>CRUD</strong></p>
+<p dir="ltr">buscar apenas um registro</p>
+<p dir="ltr"><strong>db.students.findOne()</strong></p>
+<p dir="ltr">buscar todos os registros</p>
+<p dir="ltr"><strong>db.students.find()</strong></p>
+<p dir="ltr"><strong>INDEX</strong></p>
+<p dir="ltr">neste caso cria um index para cada posição no array de “teachers”</p>
+<p dir="ltr"><strong>db.students.ensureIndex({‘teachers’:1})</strong></p>
+<p dir="ltr">Exibe o plano de consulta. isso server para ver como a consulta esta sendo feita um exemplo disso é verifiar se a consulta esta utilizando index</p>
+<p dir="ltr"><strong>db.students.find( { ‘teachers’ : { $all : { 1 , 3 } } } ).explain()</strong></p>
+<strong>DESCOBRINDO OS INDEXES</strong>
+
+Exibe os index de uma banco
+<p dir="ltr"><strong>use students</strong></p>
+<p dir="ltr"><strong>db.system.indexes.find()</strong></p>
+
+<ul>
+	<li style="display: inline !important;">
+<p dir="ltr" style="display: inline !important;">Exibe mais detalhes sobre index de uma coleção</p>
+</li>
+</ul>
+<p dir="ltr"><strong>use students</strong></p>
+<p dir="ltr"><strong>db.students.getIndexes()</strong></p>
+<p dir="ltr"><strong></strong>Remover um index de uma coleção</p>
+<p dir="ltr"><strong>use students</strong></p>
+<p dir="ltr"><strong>db.students.dropIndex({‘campo’:1})</strong></p>
+<p dir="ltr">OBS:‘<strong>campo</strong>’ referece a chave que foi colocado o index digite o nome do campo para que possa ser removido index do mesmo</p>
+<p dir="ltr"><strong>INDEX UNIQUE</strong></p>
+<p dir="ltr">Com isso não vai ser possivel adicionar valores repeditos neste campo</p>
+<p dir="ltr"><strong>db.students.ensureIndex({‘name’:1},{unique:true})</strong></p>
+<p dir="ltr"><strong>INDEX UNIQUE DROP DUPS</strong></p>
+<p dir="ltr">Ao tentar colocar um index com <strong>unique true</strong> e já existir valores repeditos será lançado uma exceção informando os dados duplicados, com esse comando o mongodb já remove os itens repetidos. Não recomendo isso mas caso seja de seu interesse segue o comando abaixo:</p>
+<p dir="ltr"><strong>db.students.ensureIndex({‘name’:1},{unique:true},{dropDups:true})</strong></p>
+
+</p>
 	
 	<hr />
 	
