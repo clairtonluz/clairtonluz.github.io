@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 7 Feb 2014 11:14:14 -0300</pubDate>
-    <lastBuildDate>Fri, 7 Feb 2014 11:14:14 -0300</lastBuildDate>
+    <pubDate>Fri, 7 Feb 2014 12:27:49 -0300</pubDate>
+    <lastBuildDate>Fri, 7 Feb 2014 12:27:49 -0300</lastBuildDate>
 
     <item>
       <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
@@ -38,6 +38,20 @@ Adicione essas @Annotation na variável referente ao email na sua class @Entity
 &lt;script src=&quot;https://gist.github.com/clairtonluz/73c3a6fa383f7390887c.js&quot;&gt;&lt;/script&gt;
 
 Você também pode usar outra expressão regular para outros tipos de validações.
+
+	</description>
+    </item>
+    <item>
+      <title>Install MariaDB for Database Server.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/201402072.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/201402072.html</guid>
+      	<description>
+	
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
+
+fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
 
 	</description>
     </item>
