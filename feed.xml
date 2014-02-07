@@ -6,14 +6,30 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 7 Feb 2014 07:41:30 -0300</pubDate>
-    <lastBuildDate>Fri, 7 Feb 2014 07:41:30 -0300</lastBuildDate>
+    <pubDate>Fri, 7 Feb 2014 07:54:23 -0300</pubDate>
+    <lastBuildDate>Fri, 7 Feb 2014 07:54:23 -0300</lastBuildDate>
 
     <item>
+      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/20140207.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/20140207.html</guid>
+      	<description>
+	
+
+basta executar o seguinte comendo no console
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
+
+autor: Hélio Frota
+
+	</description>
+    </item>
+    <item>
       <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
-      <link>http://clairtonluz.github.io//blog/2013/01/20140131.html</link>
+      <link>http://clairtonluz.github.io//blog/2014/01/20140131.html</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2013/01/20140131.html</guid>
+      <guid isPermaLink="false">/blog/2014/01/20140131.html</guid>
       	<description>
 	
 
@@ -32,9 +48,9 @@ Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
     </item>
     <item>
       <title>Comandos para mongoDB shell</title>
-      <link>http://clairtonluz.github.io//blog/2013/01/20140130.html</link>
+      <link>http://clairtonluz.github.io//blog/2014/01/20140130.html</link>
       <pubDate>Thu, 30 Jan 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2013/01/20140130.html</guid>
+      <guid isPermaLink="false">/blog/2014/01/20140130.html</guid>
       	<description>
 	
 
