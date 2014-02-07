@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 7 Feb 2014 07:54:23 -0300</pubDate>
-    <lastBuildDate>Fri, 7 Feb 2014 07:54:23 -0300</lastBuildDate>
+    <pubDate>Fri, 7 Feb 2014 11:14:14 -0300</pubDate>
+    <lastBuildDate>Fri, 7 Feb 2014 11:14:14 -0300</lastBuildDate>
 
     <item>
       <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
@@ -22,6 +22,22 @@ basta executar o seguinte comendo no console
 &lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
 
 autor: Hélio Frota
+
+	</description>
+    </item>
+    <item>
+      <title>JPA expressão regular para email</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/201402071.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/201402071.html</guid>
+      	<description>
+	
+
+Adicione essas @Annotation na variável referente ao email na sua class @Entity 
+ 
+&lt;script src=&quot;https://gist.github.com/clairtonluz/73c3a6fa383f7390887c.js&quot;&gt;&lt;/script&gt;
+
+Você também pode usar outra expressão regular para outros tipos de validações.
 
 	</description>
     </item>
