@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 6 Feb 2014 17:06:52 -0300</pubDate>
-    <lastBuildDate>Thu, 6 Feb 2014 17:06:52 -0300</lastBuildDate>
+    <pubDate>Fri, 7 Feb 2014 07:41:30 -0300</pubDate>
+    <lastBuildDate>Fri, 7 Feb 2014 07:41:30 -0300</lastBuildDate>
 
     <item>
       <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
@@ -50,37 +50,51 @@ Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
 
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;CRUD&lt;/strong&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;buscar apenas um registro&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.findOne()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/8860420.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;buscar todos os registros&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.find()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/04fb6f33051be24e1707.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX&lt;/strong&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;neste caso cria um index para cada posição no array de “teachers”&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.ensureIndex({‘teachers’:1})&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/af91c61eda7b575424de.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;Exibe o plano de consulta. isso server para ver como a consulta esta sendo feita um exemplo disso é verifiar se a consulta esta utilizando index&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.find( { ‘teachers’ : { $all : { 1 , 3 } } } ).explain()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/0974a47abe3c208fa301.js&quot;&gt;&lt;/script&gt;
+
 &lt;strong&gt;DESCOBRINDO OS INDEXES&lt;/strong&gt;
 
 Exibe os index de uma banco
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;use students&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.system.indexes.find()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/92363cbf773e6ce7abba.js&quot;&gt;&lt;/script&gt;
 
 &lt;ul&gt;
 	&lt;li style=&quot;display: inline !important;&quot;&gt;
 &lt;p dir=&quot;ltr&quot; style=&quot;display: inline !important;&quot;&gt;Exibe mais detalhes sobre index de uma coleção&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;use students&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.getIndexes()&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/3d5ed2df0a05b64324a4.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;&lt;/strong&gt;Remover um index de uma coleção&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;use students&lt;/strong&gt;&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.dropIndex({‘campo’:1})&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b0515ce952903e05a76c.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;OBS:‘&lt;strong&gt;campo&lt;/strong&gt;’ referece a chave que foi colocado o index digite o nome do campo para que possa ser removido index do mesmo&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX UNIQUE&lt;/strong&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;Com isso não vai ser possivel adicionar valores repeditos neste campo&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.ensureIndex({‘name’:1},{unique:true})&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/fcda19cca1f21cda553a.js&quot;&gt;&lt;/script&gt;
+
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX UNIQUE DROP DUPS&lt;/strong&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;Ao tentar colocar um index com &lt;strong&gt;unique true&lt;/strong&gt; e já existir valores repeditos será lançado uma exceção informando os dados duplicados, com esse comando o mongodb já remove os itens repetidos. Não recomendo isso mas caso seja de seu interesse segue o comando abaixo:&lt;/p&gt;
-&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;db.students.ensureIndex({‘name’:1},{unique:true},{dropDups:true})&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/82af0c25d5372d5969b7.js&quot;&gt;&lt;/script&gt;
+
 
 
 	</description>

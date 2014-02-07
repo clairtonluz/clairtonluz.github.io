@@ -82,37 +82,51 @@
 
 <p dir="ltr"><strong>CRUD</strong></p>
 <p dir="ltr">buscar apenas um registro</p>
-<p dir="ltr"><strong>db.students.findOne()</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/8860420.js"></script>
+
 <p dir="ltr">buscar todos os registros</p>
-<p dir="ltr"><strong>db.students.find()</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/04fb6f33051be24e1707.js"></script>
+
 <p dir="ltr"><strong>INDEX</strong></p>
 <p dir="ltr">neste caso cria um index para cada posição no array de “teachers”</p>
-<p dir="ltr"><strong>db.students.ensureIndex({‘teachers’:1})</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/af91c61eda7b575424de.js"></script>
+
 <p dir="ltr">Exibe o plano de consulta. isso server para ver como a consulta esta sendo feita um exemplo disso é verifiar se a consulta esta utilizando index</p>
-<p dir="ltr"><strong>db.students.find( { ‘teachers’ : { $all : { 1 , 3 } } } ).explain()</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/0974a47abe3c208fa301.js"></script>
+
 <strong>DESCOBRINDO OS INDEXES</strong>
 
 Exibe os index de uma banco
-<p dir="ltr"><strong>use students</strong></p>
-<p dir="ltr"><strong>db.system.indexes.find()</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/92363cbf773e6ce7abba.js"></script>
 
 <ul>
 	<li style="display: inline !important;">
 <p dir="ltr" style="display: inline !important;">Exibe mais detalhes sobre index de uma coleção</p>
 </li>
 </ul>
-<p dir="ltr"><strong>use students</strong></p>
-<p dir="ltr"><strong>db.students.getIndexes()</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/3d5ed2df0a05b64324a4.js"></script>
+
 <p dir="ltr"><strong></strong>Remover um index de uma coleção</p>
-<p dir="ltr"><strong>use students</strong></p>
-<p dir="ltr"><strong>db.students.dropIndex({‘campo’:1})</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/b0515ce952903e05a76c.js"></script>
+
 <p dir="ltr">OBS:‘<strong>campo</strong>’ referece a chave que foi colocado o index digite o nome do campo para que possa ser removido index do mesmo</p>
 <p dir="ltr"><strong>INDEX UNIQUE</strong></p>
 <p dir="ltr">Com isso não vai ser possivel adicionar valores repeditos neste campo</p>
-<p dir="ltr"><strong>db.students.ensureIndex({‘name’:1},{unique:true})</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/fcda19cca1f21cda553a.js"></script>
+
 <p dir="ltr"><strong>INDEX UNIQUE DROP DUPS</strong></p>
 <p dir="ltr">Ao tentar colocar um index com <strong>unique true</strong> e já existir valores repeditos será lançado uma exceção informando os dados duplicados, com esse comando o mongodb já remove os itens repetidos. Não recomendo isso mas caso seja de seu interesse segue o comando abaixo:</p>
-<p dir="ltr"><strong>db.students.ensureIndex({‘name’:1},{unique:true},{dropDups:true})</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/82af0c25d5372d5969b7.js"></script>
+
 
 </p>
 
