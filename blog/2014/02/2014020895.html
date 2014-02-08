@@ -2,7 +2,7 @@
 <html lang="pt">
   <head>
     <meta charset="utf-8"/>
-    <title>Configurando servidor linux CentOS 6.5 para controle de banda.</title>
+    <title>Instalar e configurar servidor DHCP no CentOS 6</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Clairton Carneiro Luz">
@@ -63,32 +63,40 @@
       <div class="container">
 	
 	<div class="page-header">
-		<h1>Configurando servidor linux CentOS 6.5 para controle de banda.</h1>
+		<h1>Instalar e configurar servidor DHCP no CentOS 6</h1>
 	</div>
 
 	<p><em>08 February 2014</em></p>
 
 	<p>
-Este tutorial considera que você acabou de instalar o CentOS 6.5 e está com conexão a internet.
-
-primeira coisa a se fazer é atualizar o servidor.
-
-<script src="https://gist.github.com/clairtonluz/a15840338b3d861bde98.js"></script>
-
-Instale o repositório RPMforge para conseguir acesso a um número maior de pacotes que iremos precisar, siga o seguinte tutorial:</br></br>
-<a href="http://clairtonluz.github.io/blog/2014/02/2014020898.html">Instalar repositório RPMforge para CentOS 6.x</a></br></br>
-
-Agora iremos configurar as interface de rede e o DHCP para que os clientes possam receber um ip automaticamente.</br></br>
-
-Caso suas intefaces de rede não esteja configurada siga o seguinte passo para configura-las. </br></br>
-<b>OBS: </b>A <b>eth0</b> deve ser a intefaca onde chega o link sendo assim suponho que já esteja configurada.</br>
-Já a <b>eth1</b> deve ter o ip estático pois este será o gateway da sua rede interna.</br></br>
-
-<a href="http://clairtonluz.github.io/blog/2014/02/2014020899.html">Configura interface de rede.</a></br></br>
-
-
-
-
+ Instale o dhcp server e cliente usando o seguinte comando:</br></br>
+ 
+ <script src="https://gist.github.com/clairtonluz/39d67f2d871f7b76e48a.js"></script>
+ 
+ Após instalar o dhcp server e suas dependências. Associe um ip estático (ex: "192.168.1.1"). Abra o seguinte arquivo
+ <b>/etc/sysconfig/network-scripts/ifcfg-eth1</b> e faça as alteração de sua preferência. Segue abaixo um exemplo:
+ 
+ <script src="https://gist.github.com/clairtonluz/907e9eab7a1cd7cc8472.js"></script>
+ 
+ Agora abra o arquivo <b>/etc/sysconfig/dhcpd</b> e adicione o nome da interface <b>eth1</b> na variavel <b>DHCPDARGS</b> abaixo:
+  
+ <script src="https://gist.github.com/clairtonluz/85a8efee21d115f6bc90.js"></script>
+ 
+ Abra o arquivo <b>/etc/dhcp/dhcpd.conf</b> e cole as linha abaixo e save-o.
+ 
+ <script src="https://gist.github.com/clairtonluz/cb8502dc7278fb502758.js"></script>
+ 
+ Agora inicie o servidor.
+ 
+ <script src="https://gist.github.com/clairtonluz/2f08bcab88994b8730d1.js"></script>
+ 
+ Com este comando abaixo inicia automaticamente o servidor dhcp juntamente com o boot.
+ 
+ <script src="https://gist.github.com/clairtonluz/ffe767d443e7461cbe8f.js"></script>
+ 
+ Pronto servidor dhcp funcionando.
+ 
+ 
 </p>
 
 	<hr>
