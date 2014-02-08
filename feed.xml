@@ -6,9 +6,55 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sat, 8 Feb 2014 10:07:58 -0300</pubDate>
-    <lastBuildDate>Sat, 8 Feb 2014 10:07:58 -0300</lastBuildDate>
+    <pubDate>Sat, 8 Feb 2014 12:56:41 -0300</pubDate>
+    <lastBuildDate>Sat, 8 Feb 2014 12:56:41 -0300</lastBuildDate>
 
+    <item>
+      <title>Instalar repositório RPMforge para CentOS 6.x</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020898.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020898.html</guid>
+      	<description>
+	
+Você pode encontar a lista completa de pacotes RPMforge at &lt;a href=&quot;http://packages.sw.be/&quot;&gt;http://packages.sw.be/&lt;/a&gt;
+
+Baixe o versão compativel com sua arquitetura. Se você não sabe qual é sua arquitetura digite o seguinte comando para descobrir esta informação.
+
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/6b336568a2a894aa4de8.js&quot;&gt;&lt;/script&gt;
+
+i686 &lt;a href=&quot;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm&quot;&gt;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm&lt;/a&gt; &lt;/br&gt;
+x86_64 &lt;a href=&quot;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm&quot;&gt;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm&lt;/a&gt; &lt;/br&gt;
+
+Instale o GPG key com o seguintes comandos:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/e355b18a3750ecb49791.js&quot;&gt;&lt;/script&gt;
+
+Se você obter o seguinte erro é porque a chave já foi importada.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/73dc08306b2a6e5fb3d7.js&quot;&gt;&lt;/script&gt;
+
+Verifica o pacote que você baixou 
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/0de0a02d9a52c9a09f4a.js&quot;&gt;&lt;/script&gt;
+
+Instale o pacote 
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/976b7a13b90fd4760495.js&quot;&gt;&lt;/script&gt;
+
+Isso irá adicionar um arquivo de configuração de repository yum e importar as apropriadas GPG keys. &lt;/br&gt;
+
+Então tente instalar alguma coisa como essa:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/d5f65c751f77b20811eb.js&quot;&gt;&lt;/script&gt;
+
+Se você conseguiu instalar o htop entao está tudo pronto.
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+Fonte: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
+
+	</description>
+    </item>
     <item>
       <title>Configurar interface eth0, eth1 e etc em CentOS.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020899.html</link>

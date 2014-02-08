@@ -2,7 +2,7 @@
 <html lang="pt">
   <head>
     <meta charset="utf-8"/>
-    <title>Clairton Luz</title>
+    <title>Instalar repositório RPMforge para CentOS 6.x</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Clairton Carneiro Luz">
@@ -29,7 +29,7 @@
   </head>
   <body>
     <div id="wrap">
-
+	
 	<!-- Fixed navbar -->
       <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
@@ -63,30 +63,51 @@
       <div class="container">
 	
 	<div class="page-header">
-		<h1>Arquivos do Blog</h1>
+		<h1>Instalar repositório RPMforge para CentOS 6.x</h1>
 	</div>
-	
-	<!--<ul>-->
-			<h4>February 2014</h4>
-			<ul>
-		
-		<li>08 - <a href="/blog/2014/02/2014020898.html">Instalar repositório RPMforge para CentOS 6.x</a></li>
-		
-		<li>08 - <a href="/blog/2014/02/2014020899.html">Configurar interface eth0, eth1 e etc em CentOS.</a></li>
-		
-		<li>07 - <a href="/blog/2014/02/2014020797.html">Install MariaDB for Database Server.</a></li>
-		
-		<li>07 - <a href="/blog/2014/02/2014020798.html">JPA expressão regular para email</a></li>
-		
-		<li>07 - <a href="/blog/2014/02/2014020799.html">comando para verificar as portas que estão sendo utilizadas no linux</a></li>
-				</ul>
-				<h4>January 2014</h4>
-				<ul>
-		
-		<li>31 - <a href="/blog/2014/01/20140131.html">Atalho do eclipse para duplicar linha não funciona no gnome</a></li>
-		
-		<li>30 - <a href="/blog/2014/01/20140130.html">Comandos para mongoDB shell</a></li>
-	</ul>
+
+	<p><em>08 February 2014</em></p>
+
+	<p>
+Você pode encontar a lista completa de pacotes RPMforge at <a href="http://packages.sw.be/">http://packages.sw.be/</a>
+
+Baixe o versão compativel com sua arquitetura. Se você não sabe qual é sua arquitetura digite o seguinte comando para descobrir esta informação.
+
+ <script src="https://gist.github.com/clairtonluz/6b336568a2a894aa4de8.js"></script>
+
+i686 <a href="http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm">http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm</a> </br>
+x86_64 <a href="http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm">http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm</a> </br>
+
+Instale o GPG key com o seguintes comandos:
+
+<script src="https://gist.github.com/clairtonluz/e355b18a3750ecb49791.js"></script>
+
+Se você obter o seguinte erro é porque a chave já foi importada.
+
+<script src="https://gist.github.com/clairtonluz/73dc08306b2a6e5fb3d7.js"></script>
+
+Verifica o pacote que você baixou 
+
+<script src="https://gist.github.com/clairtonluz/0de0a02d9a52c9a09f4a.js"></script>
+
+Instale o pacote 
+
+<script src="https://gist.github.com/clairtonluz/976b7a13b90fd4760495.js"></script>
+
+Isso irá adicionar um arquivo de configuração de repository yum e importar as apropriadas GPG keys. </br>
+
+Então tente instalar alguma coisa como essa:
+
+<script src="https://gist.github.com/clairtonluz/d5f65c751f77b20811eb.js"></script>
+
+Se você conseguiu instalar o htop entao está tudo pronto.
+</br>
+</br>
+</br>
+Fonte: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
+</p>
+
+	<hr>
 	
 		</div>
 		<div id="push"></div>
