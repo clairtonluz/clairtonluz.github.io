@@ -6,9 +6,29 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sat, 8 Feb 2014 15:02:57 -0300</pubDate>
-    <lastBuildDate>Sat, 8 Feb 2014 15:02:57 -0300</lastBuildDate>
+    <pubDate>Sat, 8 Feb 2014 15:26:03 -0300</pubDate>
+    <lastBuildDate>Sat, 8 Feb 2014 15:26:03 -0300</lastBuildDate>
 
+    <item>
+      <title>Definindo repositorio do MariaDB no CentOS 6 Linux.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020894.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020894.html</guid>
+      	<description>
+	
+
+crie um arquivo chamado &lt;b&gt;MariaDB.repo&lt;/b&gt; dentro de &lt;b&gt;/etc/yum.repos.d/&lt;/b&gt; com o seguinte conteudo:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b379486178b8405cd6d3.js&quot;&gt;&lt;/script&gt;
+
+para saber como instalar veja o seguinte tutorial:&lt;/br&gt;&lt;/br&gt;
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020797.html&quot;&gt;Install MariaDB for Database Server.&lt;/a&gt;
+
+&lt;/br&gt;&lt;/br&gt;
+Fonte: https://downloads.mariadb.org/mariadb/repositories/#mirror=qiming&amp;distro=CentOS&amp;distro_release=centos6-amd64&amp;version=5.5
+
+	</description>
+    </item>
     <item>
       <title>Instalar e configurar servidor DHCP no CentOS 6</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020895.html</link>
@@ -41,9 +61,10 @@
  
  &lt;script src=&quot;https://gist.github.com/clairtonluz/ffe767d443e7461cbe8f.js&quot;&gt;&lt;/script&gt;
  
- Pronto servidor dhcp funcionando.
+ Pronto servidor dhcp funcionando.&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
  
  
+Fonte: http://www.krizna.com/centos/install-configure-dhcp-server-centos-6/
 
 	</description>
     </item>
@@ -97,6 +118,9 @@ Já a &lt;b&gt;eth1&lt;/b&gt; deve ter o ip estático pois este será o gateway 
 
 &lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020899.html&quot;&gt;Configura interface de rede.&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;
 
+Configurando DHCP no seguinte link:&lt;/br&gt;&lt;/br&gt;
+
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020899.html&quot;&gt;Instalar e configurar servidor DHCP no CentOS 6&lt;/a&gt;&lt;/br&gt;&lt;/br&gt;
 
 
 
