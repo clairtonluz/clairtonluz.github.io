@@ -6,30 +6,62 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 7 Feb 2014 12:27:49 -0300</pubDate>
-    <lastBuildDate>Fri, 7 Feb 2014 12:27:49 -0300</lastBuildDate>
+    <pubDate>Sat, 8 Feb 2014 10:03:28 -0300</pubDate>
+    <lastBuildDate>Sat, 8 Feb 2014 10:03:28 -0300</lastBuildDate>
 
     <item>
-      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/20140207.html</link>
+      <title>Configurar interface eth0, eth1 e etc em CentOS.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020899.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020899.html</guid>
+      	<description>
+	
+Se sua interface de rede não está configurada então basta executar o seguinte comando e configurar você. É bem fácil e simples configurar por este comando veja abaixo:
+
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/7b0eca70fc3048792350.js&quot;&gt;&lt;/script&gt;
+
+Escolha a opção Network configuration para configurar seu dispositivo de rede.
+
+&lt;img src=&quot;/img/posts/1.png&quot; alt=&quot;imagem&quot;&gt;
+
+Device configuration -&gt; para configurar um dispositivo.
+
+&lt;img src=&quot;/img/posts/2.png&quot; alt=&quot;imagem&quot;&gt;
+
+Selecione New Device -&gt; para adicionar seu novo dispositivo.
+
+&lt;img src=&quot;/img/posts/3.png&quot; alt=&quot;imagem&quot;&gt;
+
+Selecione Ethernet -&gt; isso é pra definir qual o tipo de dispositivo que você que adicionar.
+
+&lt;img src=&quot;/img/posts/4.png&quot; alt=&quot;imagem&quot;&gt;
+
+preencha com os dados que desejar. lembrando que o campo Device é o nome que apararece no seu dispositivo quando você digita ifconfig -a.
+
+&lt;img src=&quot;/img/posts/5.png&quot; alt=&quot;imagem&quot;&gt;
+
+	</description>
+    </item>
+    <item>
+      <title>Install MariaDB for Database Server.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020797.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/20140207.html</guid>
+      <guid isPermaLink="false">/blog/2014/02/2014020797.html</guid>
       	<description>
 	
 
-basta executar o seguinte comendo no console
+&lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
 
-&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
-
-autor: Hélio Frota
+fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
 
 	</description>
     </item>
     <item>
       <title>JPA expressão regular para email</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/201402071.html</link>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020798.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/201402071.html</guid>
+      <guid isPermaLink="false">/blog/2014/02/2014020798.html</guid>
       	<description>
 	
 
@@ -42,16 +74,39 @@ Você também pode usar outra expressão regular para outros tipos de validaçõ
 	</description>
     </item>
     <item>
-      <title>Install MariaDB for Database Server.</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/201402072.html</link>
+      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020799.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/201402072.html</guid>
+      <guid isPermaLink="false">/blog/2014/02/2014020799.html</guid>
       	<description>
 	
 
-&lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
+basta executar o seguinte comendo no console
 
-fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
+&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
+
+autor: Hélio Frota
+
+	</description>
+    </item>
+    <item>
+      <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
+      <link>http://clairtonluz.github.io//blog/2013/01/20140131.html</link>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2013/01/20140131.html</guid>
+      	<description>
+	
+
+Para quem não sabe o atalho &lt;b&gt;Ctrl + Alt + Up&lt;/b&gt; e &lt;b&gt;Ctrl + Alt + Down&lt;/b&gt; serve para duplicar as linhas selecionada, e esse atalho não funciona no eclipse instalado no fedora 19 que vem com gnome.
+
+Para resolver isso basta abrir um terminal qualquer no seu linux e executar os seguntes comandos:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/2698ce6df29ff89df9e0.js&quot;&gt;&lt;/script&gt;
+
+Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
+&lt;/br&gt;&lt;/br&gt;
+Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
+
 
 	</description>
     </item>
@@ -72,6 +127,75 @@ Para resolver isso basta abrir um terminal qualquer no seu linux e executar os s
 Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
 &lt;/br&gt;&lt;/br&gt;
 Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
+
+
+	</description>
+    </item>
+    <item>
+      <title>Comandos para mongoDB shell</title>
+      <link>http://clairtonluz.github.io//blog/2013/01/20140130.html</link>
+      <pubDate>Thu, 30 Jan 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2013/01/20140130.html</guid>
+      	<description>
+	
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;documentos em uso para exemplos&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;coleção de &lt;strong&gt;students&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/8851555.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;coleção de &lt;strong&gt;teachers
+&lt;/strong&gt;&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/8851569.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;CRUD&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;buscar apenas um registro&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/8860420.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;buscar todos os registros&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/04fb6f33051be24e1707.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;neste caso cria um index para cada posição no array de “teachers”&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/af91c61eda7b575424de.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;Exibe o plano de consulta. isso server para ver como a consulta esta sendo feita um exemplo disso é verifiar se a consulta esta utilizando index&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/0974a47abe3c208fa301.js&quot;&gt;&lt;/script&gt;
+
+&lt;strong&gt;DESCOBRINDO OS INDEXES&lt;/strong&gt;
+
+Exibe os index de uma banco
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/92363cbf773e6ce7abba.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+	&lt;li style=&quot;display: inline !important;&quot;&gt;
+&lt;p dir=&quot;ltr&quot; style=&quot;display: inline !important;&quot;&gt;Exibe mais detalhes sobre index de uma coleção&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/3d5ed2df0a05b64324a4.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;&lt;/strong&gt;Remover um index de uma coleção&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b0515ce952903e05a76c.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;OBS:‘&lt;strong&gt;campo&lt;/strong&gt;’ referece a chave que foi colocado o index digite o nome do campo para que possa ser removido index do mesmo&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX UNIQUE&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Com isso não vai ser possivel adicionar valores repeditos neste campo&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/fcda19cca1f21cda553a.js&quot;&gt;&lt;/script&gt;
+
+&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;INDEX UNIQUE DROP DUPS&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir=&quot;ltr&quot;&gt;Ao tentar colocar um index com &lt;strong&gt;unique true&lt;/strong&gt; e já existir valores repeditos será lançado uma exceção informando os dados duplicados, com esse comando o mongodb já remove os itens repetidos. Não recomendo isso mas caso seja de seu interesse segue o comando abaixo:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/82af0c25d5372d5969b7.js&quot;&gt;&lt;/script&gt;
+
 
 
 	</description>

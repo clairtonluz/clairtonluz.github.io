@@ -65,17 +65,43 @@
 	<div class="page-header">
 		<h1>Clairton Luz</h1>
 	</div>
-  			<a href="/blog/2014/02/20140207.html"><h1>comando para verificar as portas que estão sendo utilizadas no linux</h1></a>
+  			<a href="/blog/2014/02/2014020899.html"><h1>Configurar interface eth0, eth1 e etc em CentOS.</h1></a>
+  			<p>08 February 2014</p>
+  			<p>
+Se sua interface de rede não está configurada então basta executar o seguinte comando e configurar você. É bem fácil e simples configurar por este comando veja abaixo:
+
+
+<script src="https://gist.github.com/clairtonluz/7b0eca70fc3048792350.js"></script>
+
+Escolha a opção Network configuration para configurar seu dispositivo de rede.
+
+<img src="/img/posts/1.png" alt="imagem">
+
+Device configuration -> para configurar um dispositivo.
+
+<img src="/img/posts/2.png" alt="imagem">
+
+Selecione New Device -> para adicionar seu novo dispositivo.
+
+<img src="/img/posts/3.png" alt="imagem">
+
+Selecione Ethernet -> isso é pra definir qual o tipo de dispositivo que você que adicionar.
+
+<img src="/img/posts/4.png" alt="imagem">
+
+preencha com os dados que desejar. lembrando que o campo Device é o nome que apararece no seu dispositivo quando você digita ifconfig -a.
+
+<img src="/img/posts/5.png" alt="imagem">
+</p>
+  			<a href="/blog/2014/02/2014020797.html"><h1>Install MariaDB for Database Server.</h1></a>
   			<p>07 February 2014</p>
   			<p>
 
-basta executar o seguinte comendo no console
+<script src="https://gist.github.com/clairtonluz/7f95da933270eb965da9.js"></script>
 
-<script src="https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js"></script>
-
-autor: Hélio Frota
+fonte: http://www.server-world.info/en/note?os=Fedora_19&p=mariadb
 </p>
-  			<a href="/blog/2014/02/201402071.html"><h1>JPA expressão regular para email</h1></a>
+  			<a href="/blog/2014/02/2014020798.html"><h1>JPA expressão regular para email</h1></a>
   			<p>07 February 2014</p>
   			<p>
 
@@ -85,13 +111,30 @@ Adicione essas @Annotation na variável referente ao email na sua class @Entity
 
 Você também pode usar outra expressão regular para outros tipos de validações.
 </p>
-  			<a href="/blog/2014/02/201402072.html"><h1>Install MariaDB for Database Server.</h1></a>
+  			<a href="/blog/2014/02/2014020799.html"><h1>comando para verificar as portas que estão sendo utilizadas no linux</h1></a>
   			<p>07 February 2014</p>
   			<p>
 
-<script src="https://gist.github.com/clairtonluz/7f95da933270eb965da9.js"></script>
+basta executar o seguinte comendo no console
 
-fonte: http://www.server-world.info/en/note?os=Fedora_19&p=mariadb
+<script src="https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js"></script>
+
+autor: Hélio Frota
+</p>
+  			<a href="/blog/2013/01/20140131.html"><h1>Atalho do eclipse para duplicar linha não funciona no gnome</h1></a>
+  			<p>31 January 2014</p>
+  			<p>
+
+Para quem não sabe o atalho <b>Ctrl + Alt + Up</b> e <b>Ctrl + Alt + Down</b> serve para duplicar as linhas selecionada, e esse atalho não funciona no eclipse instalado no fedora 19 que vem com gnome.
+
+Para resolver isso basta abrir um terminal qualquer no seu linux e executar os seguntes comandos:
+
+<script src="https://gist.github.com/clairtonluz/2698ce6df29ff89df9e0.js"></script>
+
+Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
+</br></br>
+Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
+
 </p>
   			<a href="/blog/2014/01/20140131.html"><h1>Atalho do eclipse para duplicar linha não funciona no gnome</h1></a>
   			<p>31 January 2014</p>
@@ -106,6 +149,69 @@ Para resolver isso basta abrir um terminal qualquer no seu linux e executar os s
 Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
 </br></br>
 Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
+
+</p>
+  			<a href="/blog/2013/01/20140130.html"><h1>Comandos para mongoDB shell</h1></a>
+  			<p>30 January 2014</p>
+  			<p>
+
+<p dir="ltr"><strong>documentos em uso para exemplos</strong></p>
+<p dir="ltr">coleção de <strong>students</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/8851555.js"></script>
+
+<p dir="ltr">coleção de <strong>teachers
+</strong></p>
+
+<script src="https://gist.github.com/clairtonluz/8851569.js"></script>
+
+<p dir="ltr"><strong>CRUD</strong></p>
+<p dir="ltr">buscar apenas um registro</p>
+
+<script src="https://gist.github.com/clairtonluz/8860420.js"></script>
+
+<p dir="ltr">buscar todos os registros</p>
+
+<script src="https://gist.github.com/clairtonluz/04fb6f33051be24e1707.js"></script>
+
+<p dir="ltr"><strong>INDEX</strong></p>
+<p dir="ltr">neste caso cria um index para cada posição no array de “teachers”</p>
+
+<script src="https://gist.github.com/clairtonluz/af91c61eda7b575424de.js"></script>
+
+<p dir="ltr">Exibe o plano de consulta. isso server para ver como a consulta esta sendo feita um exemplo disso é verifiar se a consulta esta utilizando index</p>
+
+<script src="https://gist.github.com/clairtonluz/0974a47abe3c208fa301.js"></script>
+
+<strong>DESCOBRINDO OS INDEXES</strong>
+
+Exibe os index de uma banco
+
+<script src="https://gist.github.com/clairtonluz/92363cbf773e6ce7abba.js"></script>
+
+<ul>
+	<li style="display: inline !important;">
+<p dir="ltr" style="display: inline !important;">Exibe mais detalhes sobre index de uma coleção</p>
+</li>
+</ul>
+
+<script src="https://gist.github.com/clairtonluz/3d5ed2df0a05b64324a4.js"></script>
+
+<p dir="ltr"><strong></strong>Remover um index de uma coleção</p>
+
+<script src="https://gist.github.com/clairtonluz/b0515ce952903e05a76c.js"></script>
+
+<p dir="ltr">OBS:‘<strong>campo</strong>’ referece a chave que foi colocado o index digite o nome do campo para que possa ser removido index do mesmo</p>
+<p dir="ltr"><strong>INDEX UNIQUE</strong></p>
+<p dir="ltr">Com isso não vai ser possivel adicionar valores repeditos neste campo</p>
+
+<script src="https://gist.github.com/clairtonluz/fcda19cca1f21cda553a.js"></script>
+
+<p dir="ltr"><strong>INDEX UNIQUE DROP DUPS</strong></p>
+<p dir="ltr">Ao tentar colocar um index com <strong>unique true</strong> e já existir valores repeditos será lançado uma exceção informando os dados duplicados, com esse comando o mongodb já remove os itens repetidos. Não recomendo isso mas caso seja de seu interesse segue o comando abaixo:</p>
+
+<script src="https://gist.github.com/clairtonluz/82af0c25d5372d5969b7.js"></script>
+
 
 </p>
   			<a href="/blog/2014/01/20140130.html"><h1>Comandos para mongoDB shell</h1></a>
