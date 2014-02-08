@@ -6,9 +6,56 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sat, 8 Feb 2014 12:56:41 -0300</pubDate>
-    <lastBuildDate>Sat, 8 Feb 2014 12:56:41 -0300</lastBuildDate>
+    <pubDate>Sat, 8 Feb 2014 14:21:39 -0300</pubDate>
+    <lastBuildDate>Sat, 8 Feb 2014 14:21:39 -0300</lastBuildDate>
 
+    <item>
+      <title>Solucionar problema de conexão via SSH</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020896.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020896.html</guid>
+      	<description>
+	
+Se está aparecendo a seguinte mensagem para você ao tentar se conectar ao servidor via SSH
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/dd66128470107f563756.js&quot;&gt;&lt;/script&gt;
+
+Então execute o seguinte comando na maquina que você esta usando para se conectar ao servidor:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/299557fc7ac0bd174f8f.js&quot;&gt;&lt;/script&gt;
+ 
+
+exemplo de saida:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b9e6270bd24e11758012.js&quot;&gt;&lt;/script&gt;
+
+Isso fará com que as chaves referente a esse ip seja removida e você já pode se conectar normalmente.
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>Configurando servidor linux CentOS 6.5 para controle de banda.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020897.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020897.html</guid>
+      	<description>
+	
+Este tutorial considera que você acabou de instalar o CentOS 6.5 e está com conexão a internet.
+
+primeira coisa a se fazer é atualizar o servidor.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/a15840338b3d861bde98.js&quot;&gt;&lt;/script&gt;
+
+Instale o repositório RPMforge para conseguir acesso a um número maior de pacotes que iremos precisar, siga o seguinte tutorial:
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020898.html&quot;&gt;Instalar repositório RPMforge para CentOS 6.x&lt;/a&gt;
+
+
+
+
+	</description>
+    </item>
     <item>
       <title>Instalar repositório RPMforge para CentOS 6.x</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020898.html</link>
