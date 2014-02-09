@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sat, 8 Feb 2014 16:30:17 -0300</pubDate>
-    <lastBuildDate>Sat, 8 Feb 2014 16:30:17 -0300</lastBuildDate>
+    <pubDate>Sun, 9 Feb 2014 10:32:51 -0300</pubDate>
+    <lastBuildDate>Sun, 9 Feb 2014 10:32:51 -0300</lastBuildDate>
 
     <item>
       <title>Definindo repositório do MariaDB no CentOS 6 Linux.</title>
@@ -130,7 +130,7 @@ Instale o MariaDB para armazenar informações dos usuários.
 
 &lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020797.html&quot;&gt;Install MariaDB for Database Server.&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 
-
+ 
 Configurar Firewall&lt;br/&gt;&lt;br/&gt;
 
 &lt;a href=&quot;http://blog.gustavohenrique.net/2009/12/servidor-linux-com-proxy-e-controle-de-banda-parte-2/&quot;&gt;http://blog.gustavohenrique.net/2009/12/servidor-linux-com-proxy-e-controle-de-banda-parte-2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
@@ -144,7 +144,7 @@ coloca o script dentro do arquivo /etc/rc.local que o script será executado ant
 instalando HTB-tools&lt;br/&gt;&lt;br/&gt;
 
 &lt;a href=&quot;https://sites.google.com/site/guiadoti/arquivos/HTB-tools-0.3.0a.tar.gz&quot;&gt;https://sites.google.com/site/guiadoti/arquivos/HTB-tools-0.3.0a.tar.gz&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
-
+ 
 HTB tools, squid explicativo&lt;br/&gt;&lt;br/&gt;
 
 &lt;a href=&quot;http://fenixdragom.wordpress.com/2012/10/29/850/&quot;&gt;http://fenixdragom.wordpress.com/2012/10/29/850/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
