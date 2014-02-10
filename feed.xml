@@ -6,9 +6,26 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Mon, 10 Feb 2014 12:03:12 -0300</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2014 12:03:12 -0300</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2014 12:08:23 -0300</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2014 12:08:23 -0300</lastBuildDate>
 
+    <item>
+      <title>Salvar usuário e senha do git para que não seja mais solicitado</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014021098.html</link>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014021098.html</guid>
+      	<description>
+	
+SALVA USUARIO E SENHA POR 3600 SEGUNDOS:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/ae554b398abaf3580416.js&quot;&gt;&lt;/script&gt;
+
+SALVA USUARIO E SENHA PERMANENTE:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9a02a31f8a880ae46130.js&quot;&gt;&lt;/script&gt;
+
+	</description>
+    </item>
     <item>
       <title>Como instalar o descompressor de arquivos RAR no FEDORA 19</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021099.html</link>
