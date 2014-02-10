@@ -6,6 +6,7 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
+<<<<<<< HEAD
     <pubDate>Mon, 10 Feb 2014 12:01:00 -0300</pubDate>
     <lastBuildDate>Mon, 10 Feb 2014 12:01:00 -0300</lastBuildDate>
 
@@ -14,11 +15,22 @@
       <link>http://clairtonluz.github.io//blog/2014/02/2014021099.html</link>
       <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
       <guid isPermaLink="false">/blog/2014/02/2014021099.html</guid>
+=======
+    <pubDate>Sun, 9 Feb 2014 10:32:51 -0300</pubDate>
+    <lastBuildDate>Sun, 9 Feb 2014 10:32:51 -0300</lastBuildDate>
+
+    <item>
+      <title>Definindo repositório do MariaDB no CentOS 6 Linux.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020894.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020894.html</guid>
+>>>>>>> e483edfa54ea8ed96444209fe7ffd81fbd28f513
       	<description>
 	
 Adiciona o RPMFUSION (http://www.rpmfusion.org) onde tem os RPM&apos;s para 
 todos os applicativos que necessitas que não são distribuidos pelo Fedora.&lt;br/&gt;&lt;br/&gt;
 
+<<<<<<< HEAD
 Veja como fazer isso aqui: &lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020898.html&quot;&gt;http://clairtonluz.github.io/blog/2014/02/2014020898.html&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 
 
@@ -40,6 +52,12 @@ crie um arquivo chamado &lt;b&gt;MariaDB.repo&lt;/b&gt; dentro de &lt;b&gt;/etc/
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/b379486178b8405cd6d3.js&quot;&gt;&lt;/script&gt;
 
+=======
+crie um arquivo chamado &lt;b&gt;MariaDB.repo&lt;/b&gt; dentro de &lt;b&gt;/etc/yum.repos.d/&lt;/b&gt; com o seguinte conteúdo:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b379486178b8405cd6d3.js&quot;&gt;&lt;/script&gt;
+
+>>>>>>> e483edfa54ea8ed96444209fe7ffd81fbd28f513
 para saber como instalar veja o seguinte tutorial:&lt;/br&gt;&lt;/br&gt;
 &lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020797.html&quot;&gt;Install MariaDB for Database Server.&lt;/a&gt;
 
@@ -247,22 +265,8 @@ Selecione Ethernet -&gt; isso é pra definir qual o tipo de dispositivo que voc�
 preencha com os dados que desejar. lembrando que o campo Device é o nome que apararece no seu dispositivo quando você digita ifconfig -a.
 
 &lt;img src=&quot;/img/posts/5.png&quot; alt=&quot;imagem&quot;&gt;
-
-	</description>
-    </item>
-    <item>
-      <title>JPA expressão regular para email</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/2014020796.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020796.html</guid>
-      	<description>
-	
-
-Adicione essas @Annotation na variável referente ao email na sua class @Entity 
- 
-&lt;script src=&quot;https://gist.github.com/clairtonluz/73c3a6fa383f7390887c.js&quot;&gt;&lt;/script&gt;
-
-Você também pode usar outra expressão regular para outros tipos de validações.
+<<<<<<< HEAD
+=======
 
 	</description>
     </item>
@@ -277,6 +281,52 @@ Você também pode usar outra expressão regular para outros tipos de validaçõ
 &lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
 
 fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
+>>>>>>> e483edfa54ea8ed96444209fe7ffd81fbd28f513
+
+	</description>
+    </item>
+    <item>
+      <title>JPA expressão regular para email</title>
+<<<<<<< HEAD
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020796.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020796.html</guid>
+=======
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020798.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020798.html</guid>
+>>>>>>> e483edfa54ea8ed96444209fe7ffd81fbd28f513
+      	<description>
+	
+
+Adicione essas @Annotation na variável referente ao email na sua class @Entity 
+ 
+&lt;script src=&quot;https://gist.github.com/clairtonluz/73c3a6fa383f7390887c.js&quot;&gt;&lt;/script&gt;
+
+Você também pode usar outra expressão regular para outros tipos de validações.
+
+	</description>
+    </item>
+    <item>
+<<<<<<< HEAD
+      <title>Install MariaDB for Database Server.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020797.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020797.html</guid>
+=======
+      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020799.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020799.html</guid>
+>>>>>>> e483edfa54ea8ed96444209fe7ffd81fbd28f513
+      	<description>
+	
+
+basta executar o seguinte comendo no console
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
+
+autor: Hélio Frota
 
 	</description>
     </item>
