@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="pt-br">
-    <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
+    <title>Instalar e configurar servidor DHCP no CentOS 6</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow" />
     <meta name="description" content="">
@@ -64,23 +64,41 @@
       <div class="container">
 	
 	<div class="page-header">
-		<h1>Atalho do eclipse para duplicar linha não funciona no gnome</h1>
+		<h1>Instalar e configurar servidor DHCP no CentOS 6</h1>
 	</div>
 
-	<p><em>31 January 2014</em></p>
+	<p><em>08 February 2014</em></p>
 
 	<p>
-
-Para quem não sabe o atalho <b>Ctrl + Alt + Up</b> e <b>Ctrl + Alt + Down</b> serve para duplicar as linhas selecionada, e esse atalho não funciona no eclipse instalado no fedora 19 que vem com gnome.
-
-Para resolver isso basta abrir um terminal qualquer no seu linux e executar os seguntes comandos:
-
-<script src="https://gist.github.com/clairtonluz/2698ce6df29ff89df9e0.js"></script>
-
-Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
-</br></br>
-Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
-
+ Instale o dhcp server e cliente usando o seguinte comando:</br></br>
+ 
+ <script src="https://gist.github.com/clairtonluz/39d67f2d871f7b76e48a.js"></script>
+ 
+ Após instalar o dhcp server e suas dependências. Associe um ip estático (ex: "192.168.1.1"). Abra o seguinte arquivo
+ <b>/etc/sysconfig/network-scripts/ifcfg-eth1</b> e faça as alteração de sua preferência. Segue abaixo um exemplo:
+ 
+ <script src="https://gist.github.com/clairtonluz/907e9eab7a1cd7cc8472.js"></script>
+ 
+ Agora abra o arquivo <b>/etc/sysconfig/dhcpd</b> e adicione o nome da interface <b>eth1</b> na variavel <b>DHCPDARGS</b> abaixo:
+  
+ <script src="https://gist.github.com/clairtonluz/85a8efee21d115f6bc90.js"></script>
+ 
+ Abra o arquivo <b>/etc/dhcp/dhcpd.conf</b> e cole as linha abaixo e save-o.
+ 
+ <script src="https://gist.github.com/clairtonluz/cb8502dc7278fb502758.js"></script>
+ 
+ Agora inicie o servidor.
+ 
+ <script src="https://gist.github.com/clairtonluz/2f08bcab88994b8730d1.js"></script>
+ 
+ Com este comando abaixo inicia automaticamente o servidor dhcp juntamente com o boot.
+ 
+ <script src="https://gist.github.com/clairtonluz/ffe767d443e7461cbe8f.js"></script>
+ 
+ Pronto servidor dhcp funcionando.</br></br></br>
+ 
+ 
+Fonte: http://www.krizna.com/centos/install-configure-dhcp-server-centos-6/
 </p>
 
 	<hr>

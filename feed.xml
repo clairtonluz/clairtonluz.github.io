@@ -6,30 +6,255 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 7 Feb 2014 12:27:49 -0300</pubDate>
-    <lastBuildDate>Fri, 7 Feb 2014 12:27:49 -0300</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2014 12:01:00 -0300</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2014 12:01:00 -0300</lastBuildDate>
 
     <item>
-      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/20140207.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/20140207.html</guid>
+      <title>Como instalar o descompressor de arquivos RAR no FEDORA 19</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014021099.html</link>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014021099.html</guid>
+      	<description>
+	
+Adiciona o RPMFUSION (http://www.rpmfusion.org) onde tem os RPM&apos;s para 
+todos os applicativos que necessitas que não são distribuidos pelo Fedora.&lt;br/&gt;&lt;br/&gt;
+
+Veja como fazer isso aqui: &lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020898.html&quot;&gt;http://clairtonluz.github.io/blog/2014/02/2014020898.html&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+
+Agora é só instalar o unrar e você já poderá descompactar, compactar, colocar senhar e tudo que você pode fazer com arquivos RAR. Segue abaixo o procedimento:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b5f6677d5c9a1f0f3322.js&quot;&gt;&lt;/script&gt;
+
+	</description>
+    </item>
+    <item>
+      <title>Definindo repositório do MariaDB no CentOS 6 Linux.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020894.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020894.html</guid>
       	<description>
 	
 
-basta executar o seguinte comendo no console
+crie um arquivo chamado &lt;b&gt;MariaDB.repo&lt;/b&gt; dentro de &lt;b&gt;/etc/yum.repos.d/&lt;/b&gt; com o seguinte conteúdo:
 
-&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b379486178b8405cd6d3.js&quot;&gt;&lt;/script&gt;
 
-autor: Hélio Frota
+para saber como instalar veja o seguinte tutorial:&lt;/br&gt;&lt;/br&gt;
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020797.html&quot;&gt;Install MariaDB for Database Server.&lt;/a&gt;
+
+&lt;/br&gt;&lt;/br&gt;
+Fonte: https://downloads.mariadb.org/mariadb/repositories/#mirror=qiming&amp;distro=CentOS&amp;distro_release=centos6-amd64&amp;version=5.5
+
+	</description>
+    </item>
+    <item>
+      <title>Instalar e configurar servidor DHCP no CentOS 6</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020895.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020895.html</guid>
+      	<description>
+	
+ Instale o dhcp server e cliente usando o seguinte comando:&lt;/br&gt;&lt;/br&gt;
+ 
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/39d67f2d871f7b76e48a.js&quot;&gt;&lt;/script&gt;
+ 
+ Após instalar o dhcp server e suas dependências. Associe um ip estático (ex: &quot;192.168.1.1&quot;). Abra o seguinte arquivo
+ &lt;b&gt;/etc/sysconfig/network-scripts/ifcfg-eth1&lt;/b&gt; e faça as alteração de sua preferência. Segue abaixo um exemplo:
+ 
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/907e9eab7a1cd7cc8472.js&quot;&gt;&lt;/script&gt;
+ 
+ Agora abra o arquivo &lt;b&gt;/etc/sysconfig/dhcpd&lt;/b&gt; e adicione o nome da interface &lt;b&gt;eth1&lt;/b&gt; na variavel &lt;b&gt;DHCPDARGS&lt;/b&gt; abaixo:
+  
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/85a8efee21d115f6bc90.js&quot;&gt;&lt;/script&gt;
+ 
+ Abra o arquivo &lt;b&gt;/etc/dhcp/dhcpd.conf&lt;/b&gt; e cole as linha abaixo e save-o.
+ 
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/cb8502dc7278fb502758.js&quot;&gt;&lt;/script&gt;
+ 
+ Agora inicie o servidor.
+ 
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/2f08bcab88994b8730d1.js&quot;&gt;&lt;/script&gt;
+ 
+ Com este comando abaixo inicia automaticamente o servidor dhcp juntamente com o boot.
+ 
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/ffe767d443e7461cbe8f.js&quot;&gt;&lt;/script&gt;
+ 
+ Pronto servidor dhcp funcionando.&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
+ 
+ 
+Fonte: http://www.krizna.com/centos/install-configure-dhcp-server-centos-6/
+
+	</description>
+    </item>
+    <item>
+      <title>Solucionar problema de conexão via SSH</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020896.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020896.html</guid>
+      	<description>
+	
+Se está aparecendo a seguinte mensagem para você ao tentar se conectar ao servidor via SSH
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/dd66128470107f563756.js&quot;&gt;&lt;/script&gt;
+
+Então execute o seguinte comando na maquina que você esta usando para se conectar ao servidor:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/299557fc7ac0bd174f8f.js&quot;&gt;&lt;/script&gt;
+ 
+
+exemplo de saida:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/b9e6270bd24e11758012.js&quot;&gt;&lt;/script&gt;
+
+Isso fará com que as chaves referente a esse ip seja removida e você já pode se conectar normalmente.
+
+
+
+	</description>
+    </item>
+    <item>
+      <title>Configurando servidor linux CentOS 6.5 para controle de banda.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020897.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020897.html</guid>
+      	<description>
+	
+Este tutorial considera que você acabou de instalar o CentOS 6.5 e está com conexão a internet.
+
+primeira coisa a se fazer é atualizar o servidor.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/a15840338b3d861bde98.js&quot;&gt;&lt;/script&gt;
+
+Instale o repositório RPMforge para conseguir acesso a um número maior de pacotes que iremos precisar, siga o seguinte tutorial:&lt;br/&gt;&lt;br/&gt;
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020898.html&quot;&gt;Instalar repositório RPMforge para CentOS 6.x&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+Agora iremos configurar as interface de rede e o DHCP para que os clientes possam receber um ip automaticamente.&lt;br/&gt;&lt;br/&gt;
+
+Caso suas intefaces de rede não esteja configurada siga o seguinte passo para configura-las. &lt;br/&gt;&lt;br/&gt;
+&lt;b&gt;OBS: &lt;/b&gt;A &lt;b&gt;eth0&lt;/b&gt; deve ser a intefaca onde chega o link sendo assim suponho que já esteja configurada.&lt;br/&gt;
+Já a &lt;b&gt;eth1&lt;/b&gt; deve ter o ip estático pois este será o gateway da sua rede interna.&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020899.html&quot;&gt;Configura interface de rede.&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+Configurando DHCP no seguinte link:&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020899.html&quot;&gt;Instalar e configurar servidor DHCP no CentOS 6&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+Configure o repositório do MariaDB para que possa ser intalado no passo seguinte.
+
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020894.html&quot;&gt;Definindo repositorio do MariaDB no CentOS 6 Linux.&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+Instale o MariaDB para armazenar informações dos usuários.
+
+&lt;a href=&quot;http://clairtonluz.github.io/blog/2014/02/2014020797.html&quot;&gt;Install MariaDB for Database Server.&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+ 
+Configurar Firewall&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;http://blog.gustavohenrique.net/2009/12/servidor-linux-com-proxy-e-controle-de-banda-parte-2/&quot;&gt;http://blog.gustavohenrique.net/2009/12/servidor-linux-com-proxy-e-controle-de-banda-parte-2&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+Instalar Glassfish4, Configurar usuarios do mariaDB e configurar conexão JDBC com glassfish&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;http://clairtonjava.wordpress.com/2013/10/24/configuracao-do-glassfish-4-com-o-banco-mariadb-e-netbeans/&quot;&gt;http://clairtonjava.wordpress.com/2013/10/24/configuracao-do-glassfish-4-com-o-banco-mariadb-e-netbeans/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+coloca o script dentro do arquivo /etc/rc.local que o script será executado antes da tela de login&lt;br/&gt;&lt;br/&gt;
+
+instalando HTB-tools&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;https://sites.google.com/site/guiadoti/arquivos/HTB-tools-0.3.0a.tar.gz&quot;&gt;https://sites.google.com/site/guiadoti/arquivos/HTB-tools-0.3.0a.tar.gz&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+ 
+HTB tools, squid explicativo&lt;br/&gt;&lt;br/&gt;
+
+&lt;a href=&quot;http://fenixdragom.wordpress.com/2012/10/29/850/&quot;&gt;http://fenixdragom.wordpress.com/2012/10/29/850/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+	</description>
+    </item>
+    <item>
+      <title>Instalar repositório RPMforge para CentOS 6.x</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020898.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020898.html</guid>
+      	<description>
+	
+Você pode encontar a lista completa de pacotes RPMforge at &lt;a href=&quot;http://packages.sw.be/&quot;&gt;http://packages.sw.be/&lt;/a&gt;
+
+Baixe o versão compativel com sua arquitetura. Se você não sabe qual é sua arquitetura digite o seguinte comando para descobrir esta informação.
+
+ &lt;script src=&quot;https://gist.github.com/clairtonluz/6b336568a2a894aa4de8.js&quot;&gt;&lt;/script&gt;
+
+i686 &lt;a href=&quot;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm&quot;&gt;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm&lt;/a&gt; &lt;/br&gt;
+x86_64 &lt;a href=&quot;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm&quot;&gt;http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm&lt;/a&gt; &lt;/br&gt;
+
+Instale o GPG key com o seguintes comandos:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/e355b18a3750ecb49791.js&quot;&gt;&lt;/script&gt;
+
+Se você obter o seguinte erro é porque a chave já foi importada.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/73dc08306b2a6e5fb3d7.js&quot;&gt;&lt;/script&gt;
+
+Verifica o pacote que você baixou 
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/0de0a02d9a52c9a09f4a.js&quot;&gt;&lt;/script&gt;
+
+Instale o pacote 
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/976b7a13b90fd4760495.js&quot;&gt;&lt;/script&gt;
+
+Isso irá adicionar um arquivo de configuração de repository yum e importar as apropriadas GPG keys. &lt;/br&gt;
+
+Então tente instalar alguma coisa como essa:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/d5f65c751f77b20811eb.js&quot;&gt;&lt;/script&gt;
+
+Se você conseguiu instalar o htop entao está tudo pronto.
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+Fonte: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
+
+	</description>
+    </item>
+    <item>
+      <title>Configurar interface eth0, eth1 e etc em CentOS.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020899.html</link>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020899.html</guid>
+      	<description>
+	
+Se sua interface de rede não está configurada então basta executar o seguinte comando e configurar você. É bem fácil e simples configurar por este comando veja abaixo:
+
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/7b0eca70fc3048792350.js&quot;&gt;&lt;/script&gt;
+
+Escolha a opção Network configuration para configurar seu dispositivo de rede.
+
+&lt;img src=&quot;/img/posts/1.png&quot; alt=&quot;imagem&quot;&gt;
+
+Device configuration -&gt; para configurar um dispositivo.
+
+&lt;img src=&quot;/img/posts/2.png&quot; alt=&quot;imagem&quot;&gt;
+
+Selecione New Device -&gt; para adicionar seu novo dispositivo.
+
+&lt;img src=&quot;/img/posts/3.png&quot; alt=&quot;imagem&quot;&gt;
+
+Selecione Ethernet -&gt; isso é pra definir qual o tipo de dispositivo que você que adicionar.
+
+&lt;img src=&quot;/img/posts/4.png&quot; alt=&quot;imagem&quot;&gt;
+
+preencha com os dados que desejar. lembrando que o campo Device é o nome que apararece no seu dispositivo quando você digita ifconfig -a.
+
+&lt;img src=&quot;/img/posts/5.png&quot; alt=&quot;imagem&quot;&gt;
 
 	</description>
     </item>
     <item>
       <title>JPA expressão regular para email</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/201402071.html</link>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020796.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/201402071.html</guid>
+      <guid isPermaLink="false">/blog/2014/02/2014020796.html</guid>
       	<description>
 	
 
@@ -43,15 +268,47 @@ Você também pode usar outra expressão regular para outros tipos de validaçõ
     </item>
     <item>
       <title>Install MariaDB for Database Server.</title>
-      <link>http://clairtonluz.github.io//blog/2014/02/201402072.html</link>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020797.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/201402072.html</guid>
+      <guid isPermaLink="false">/blog/2014/02/2014020797.html</guid>
       	<description>
 	
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
 
 fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
+
+	</description>
+    </item>
+    <item>
+      <title>JPA expressão regular para email</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020798.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020798.html</guid>
+      	<description>
+	
+
+Adicione essas @Annotation na variável referente ao email na sua class @Entity 
+ 
+&lt;script src=&quot;https://gist.github.com/clairtonluz/73c3a6fa383f7390887c.js&quot;&gt;&lt;/script&gt;
+
+Você também pode usar outra expressão regular para outros tipos de validações.
+
+	</description>
+    </item>
+    <item>
+      <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014020799.html</link>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014020799.html</guid>
+      	<description>
+	
+
+basta executar o seguinte comendo no console
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/f4a2e651e5381fa1e00f.js&quot;&gt;&lt;/script&gt;
+
+autor: Hélio Frota
 
 	</description>
     </item>

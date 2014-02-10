@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="pt-br">
-    <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
+    <title>Solucionar problema de conexão via SSH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index,follow" />
     <meta name="description" content="">
@@ -64,22 +64,27 @@
       <div class="container">
 	
 	<div class="page-header">
-		<h1>Atalho do eclipse para duplicar linha não funciona no gnome</h1>
+		<h1>Solucionar problema de conexão via SSH</h1>
 	</div>
 
-	<p><em>31 January 2014</em></p>
+	<p><em>08 February 2014</em></p>
 
 	<p>
+Se está aparecendo a seguinte mensagem para você ao tentar se conectar ao servidor via SSH
 
-Para quem não sabe o atalho <b>Ctrl + Alt + Up</b> e <b>Ctrl + Alt + Down</b> serve para duplicar as linhas selecionada, e esse atalho não funciona no eclipse instalado no fedora 19 que vem com gnome.
+<script src="https://gist.github.com/clairtonluz/dd66128470107f563756.js"></script>
 
-Para resolver isso basta abrir um terminal qualquer no seu linux e executar os seguntes comandos:
+Então execute o seguinte comando na maquina que você esta usando para se conectar ao servidor:
 
-<script src="https://gist.github.com/clairtonluz/2698ce6df29ff89df9e0.js"></script>
+<script src="https://gist.github.com/clairtonluz/299557fc7ac0bd174f8f.js"></script>
+ 
 
-Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, com isso os respectivos atalhos no eclipse serão liberados.
-</br></br>
-Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
+exemplo de saida:
+
+<script src="https://gist.github.com/clairtonluz/b9e6270bd24e11758012.js"></script>
+
+Isso fará com que as chaves referente a esse ip seja removida e você já pode se conectar normalmente.
+
 
 </p>
 
