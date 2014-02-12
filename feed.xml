@@ -6,9 +6,31 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Mon, 10 Feb 2014 12:08:23 -0300</pubDate>
-    <lastBuildDate>Mon, 10 Feb 2014 12:08:23 -0300</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2014 07:55:01 -0300</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2014 07:55:01 -0300</lastBuildDate>
 
+    <item>
+      <title>Vários cursos online oferecido pelo governo</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014021299.html</link>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014021299.html</guid>
+      	<description>
+	
+&lt;b&gt;Áreas de Formação:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+Cursos Ministrados&lt;br/&gt;
+Iniciação Digital&lt;br/&gt;
+Aperfeiçoamento Digital&lt;br/&gt;
+Suporte e Manutenção de Computadores&lt;br/&gt;
+Linguagem de Programação – Java&lt;br/&gt;
+Linguagem de Programação – PHP Criação e Manipulação de Imagens&lt;br/&gt;
+Web Design&lt;br/&gt;
+Linux Avançado&lt;br/&gt;&lt;br/&gt;
+
+
+Link para os cursos: &lt;a href=&quot;http://utd.sct.ce.gov.br/index.php/areas-de-formacao&quot;&gt;http://utd.sct.ce.gov.br/index.php/areas-de-formacao&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+	</description>
+    </item>
     <item>
       <title>Salvar usuário e senha do git para que não seja mais solicitado</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021098.html</link>
