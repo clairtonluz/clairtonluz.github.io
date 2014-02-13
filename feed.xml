@@ -6,9 +6,34 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Wed, 12 Feb 2014 08:20:48 -0300</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2014 08:20:48 -0300</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2014 11:45:27 -0300</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2014 11:45:27 -0300</lastBuildDate>
 
+    <item>
+      <title>Auto ajuste das colunas TableColumn de uma tabela TableView em JavaFX</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014021399.html</link>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014021399.html</guid>
+      	<description>
+	
+Nova caracterisca no JavaFX 2.2 ou superior&lt;br/&gt;
+
+Em FXML para permitir que as colunas da tabela se auto ajuste ao tamanho da tabela tem que definir a politica de redimencionamento das colunas. para isso basta adicionar a tag abaixo dentro da tag da TableView.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/100982ebe268871a2873.js&quot;&gt;&lt;/script&gt;
+ 
+veja o exemplo abaixo:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/d8cb6d20e352d21b6b74.js&quot;&gt;&lt;/script&gt;
+
+Se você não está usando FXML, a politica de redimencionamento da tabela pode ainda ser definida por codigo java com a seguinte linha de codigo:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/a79ba43ba445076eb055.js&quot;&gt;&lt;/script&gt;&lt;br/&gt;&lt;br/&gt;
+
+fonte:http://stackoverflow.com/questions/11484960/table-column-wont-take-full-size-of-the-table-view-in-javafx
+
+	</description>
+    </item>
     <item>
       <title>Vários cursos gratuítos oferecido pelo governo</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021299.html</link>
