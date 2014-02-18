@@ -6,9 +6,22 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 13 Feb 2014 11:45:27 -0300</pubDate>
-    <lastBuildDate>Thu, 13 Feb 2014 11:45:27 -0300</lastBuildDate>
+    <pubDate>Tue, 18 Feb 2014 11:49:50 -0300</pubDate>
+    <lastBuildDate>Tue, 18 Feb 2014 11:49:50 -0300</lastBuildDate>
 
+    <item>
+      <title>Exibir foreign key de uma tabela no MySQL.</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014021899.html</link>
+      <pubDate>Tue, 18 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014021899.html</guid>
+      	<description>
+	
+Troque &apos;nomeDaTabelaPai&apos; pelo nome da tabela pai e será exibido todas as tabela filhas e suas constraints
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9072360.js&quot;&gt;&lt;/script&gt;
+
+	</description>
+    </item>
     <item>
       <title>Auto ajuste das colunas TableColumn de uma tabela TableView em JavaFX</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021399.html</link>
