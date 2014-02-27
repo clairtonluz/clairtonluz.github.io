@@ -6,9 +6,24 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Wed, 26 Feb 2014 12:27:30 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Feb 2014 12:27:30 -0300</lastBuildDate>
+    <pubDate>Thu, 27 Feb 2014 12:11:57 -0300</pubDate>
+    <lastBuildDate>Thu, 27 Feb 2014 12:11:57 -0300</lastBuildDate>
 
+    <item>
+      <title>Como remover datasource configurado no wildfly</title>
+      <link>http://clairtonluz.github.io//blog/2014/02/2014022799.html</link>
+      <pubDate>Thu, 27 Feb 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/02/2014022799.html</guid>
+      	<description>
+	
+1) acesse o diretório &lt;b&gt;$WILDFLY_HOME/bin&lt;/b&gt;&lt;br/&gt;
+2) inicie o servidor:
+&lt;script src=&quot;https://gist.github.com/clairtonluz/ded4d893cb93e1d2943c.js&quot;&gt;&lt;/script&gt;
+3) agora abra outro terminal e vá para o diretório  &lt;b&gt;$WILDFLY_HOME/bin&lt;/b&gt; novamente e execute o seguinte comando trocando o &lt;b&gt;&apos;datasourceNameDS&apos;&lt;/b&gt; pelo nome do seu datasource:
+&lt;script src=&quot;https://gist.github.com/clairtonluz/8bad4fa71fd7d2aca625.js&quot;&gt;&lt;/script&gt;
+
+	</description>
+    </item>
     <item>
       <title>Exemplo de configuração de persistence.xml como JTA ou RESOURCE LOCAL para Hibernate com MySQL</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014022699.html</link>
