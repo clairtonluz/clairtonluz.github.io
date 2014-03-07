@@ -6,9 +6,22 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 6 Mar 2014 13:16:09 -0300</pubDate>
-    <lastBuildDate>Thu, 6 Mar 2014 13:16:09 -0300</lastBuildDate>
+    <pubDate>Fri, 7 Mar 2014 14:13:08 -0300</pubDate>
+    <lastBuildDate>Fri, 7 Mar 2014 14:13:08 -0300</lastBuildDate>
 
+    <item>
+      <title>Exemplo de Multiplos inserts com select em um unico insert</title>
+      <link>http://clairtonluz.github.io//blog/2014/03/2014030799.html</link>
+      <pubDate>Fri, 7 Mar 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/03/2014030799.html</guid>
+      	<description>
+	
+Veja no exemplo abaixo:
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9415524.js&quot;&gt;&lt;/script&gt;
+
+
+	</description>
+    </item>
     <item>
       <title>Instalando java no Firefox do linux</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014030699.html</link>
