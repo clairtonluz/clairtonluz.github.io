@@ -6,19 +6,22 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 13 Mar 2014 09:35:21 -0300</pubDate>
-    <lastBuildDate>Thu, 13 Mar 2014 09:35:21 -0300</lastBuildDate>
+    <pubDate>Thu, 13 Mar 2014 09:40:01 -0300</pubDate>
+    <lastBuildDate>Thu, 13 Mar 2014 09:40:01 -0300</lastBuildDate>
 
     <item>
-      <title>Formatar data na camada de visão do JSF</title>
+      <title>Formatar data e valores decimal na camada de visão do JSF</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014031399.html</link>
       <pubDate>Thu, 13 Mar 2014 00:00:00 -0300</pubDate>
       <guid isPermaLink="false">/blog/2014/03/2014031399.html</guid>
       	<description>
 	
-Veja no exemplo abaixo:
+Formatando data:
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9527579.js&quot;&gt;&lt;/script&gt;
 
+
+Formatando valores decimal:
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9527670.js&quot;&gt;&lt;/script&gt;
 
 	</description>
     </item>
