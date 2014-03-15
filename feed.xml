@@ -6,22 +6,36 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Fri, 14 Mar 2014 12:22:38 -0300</pubDate>
-    <lastBuildDate>Fri, 14 Mar 2014 12:22:38 -0300</lastBuildDate>
+    <pubDate>Sat, 15 Mar 2014 11:22:11 -0300</pubDate>
+    <lastBuildDate>Sat, 15 Mar 2014 11:22:11 -0300</lastBuildDate>
 
     <item>
-      <title>Formatar data e valores decimal na camada de visão do JSF</title>
+      <title>Como fazer para pausar por um determinado tempo um script em shell?</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014031399.html</link>
-      <pubDate>Thu, 13 Mar 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 15 Mar 2014 00:00:00 -0300</pubDate>
       <guid isPermaLink="false">/blog/2014/03/2014031399.html</guid>
       	<description>
 	
-Formatando data:
-&lt;script src=&quot;https://gist.github.com/clairtonluz/9527579.js&quot;&gt;&lt;/script&gt;
+Você precisa adicionar um comando sleep para adicionar um atraso no seu script, veja a sintax do commando abaixo:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/c87701b2077c1d6b143d.js&quot;&gt;&lt;/script&gt;
+
+Onde o SUFIXO pode ser:&lt;br/&gt;&lt;br/&gt;
+
+s para segundos (padrão)&lt;br/&gt;
+m para minutos.&lt;br/&gt;
+h para horas.&lt;br/&gt;
+d para dias.&lt;br/&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/1752cbfa50a8ef685e17.js&quot;&gt;&lt;/script&gt;
+
+exemplo de script
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9568054.js&quot;&gt;&lt;/script&gt;
+
+fonte: &lt;a href=&quot;http://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/&quot;&gt;cyberciti&lt;/a&gt;
 
 
-Formatando valores decimal:
-&lt;script src=&quot;https://gist.github.com/clairtonluz/9527670.js&quot;&gt;&lt;/script&gt;
 
 	</description>
     </item>
