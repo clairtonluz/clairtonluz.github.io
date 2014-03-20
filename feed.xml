@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sat, 15 Mar 2014 11:22:11 -0300</pubDate>
-    <lastBuildDate>Sat, 15 Mar 2014 11:22:11 -0300</lastBuildDate>
+    <pubDate>Thu, 20 Mar 2014 14:33:15 -0300</pubDate>
+    <lastBuildDate>Thu, 20 Mar 2014 14:33:15 -0300</lastBuildDate>
 
     <item>
       <title>Como fazer para pausar por um determinado tempo um script em shell?</title>
@@ -192,13 +192,16 @@ Link para os cursos: &lt;a href=&quot;http://utd.sct.ce.gov.br/index.php/areas-d
       <guid isPermaLink="false">/blog/2014/02/2014021098.html</guid>
       	<description>
 	
+Para salvar o usuário e senha do git basta executar o seguinte comando dentro de um diretório de um aplicação com git. &lt;br/&gt;
+Se você não quiser que seja salvo o usuário e senha para todos os outros diretorio remova o parametro &lt;b&gt;--global&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
+
 SALVA USUARIO E SENHA POR 3600 SEGUNDOS:
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/ae554b398abaf3580416.js&quot;&gt;&lt;/script&gt;
 
 SALVA USUARIO E SENHA PERMANENTE:
 
-&lt;script src=&quot;https://gist.github.com/clairtonluz/9a02a31f8a880ae46130.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9668319.js&quot;&gt;&lt;/script&gt;
 
 	</description>
     </item>
