@@ -6,9 +6,33 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 20 Mar 2014 14:33:15 -0300</pubDate>
-    <lastBuildDate>Thu, 20 Mar 2014 14:33:15 -0300</lastBuildDate>
+    <pubDate>Fri, 21 Mar 2014 10:47:05 -0300</pubDate>
+    <lastBuildDate>Fri, 21 Mar 2014 10:47:05 -0300</lastBuildDate>
 
+    <item>
+      <title>Adicionar pesquisa no seu site utilizando o google</title>
+      <link>http://clairtonluz.github.io//blog/2014/03/2014032199.html</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/03/2014032199.html</guid>
+      	<description>
+	
+Basta criar um formulário da seguinte forma:
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9686306.js&quot;&gt;&lt;/script&gt;
+
+E substituir o valor do input hidden de &lt;b&gt;SEU SITE AQUI&lt;/b&gt; para o endereço 
+do seu site, por exemplo: &lt;b&gt;clairtonluz.github.io&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+Fazendo isso quando um usuário pesquisar nesse formulário os 
+resultados exibidos serão relacionados ao seu site.&lt;br/&gt;&lt;br/&gt;
+
+Faça um teste com o campo abaixo. procure por algum poste deste blog.
+
+&lt;form action=&quot;http://www.google.com/search&quot; method=&quot;GET&quot;  class=&quot;form-horizontal&quot;&gt;
+	&lt;input type=&quot;hidden&quot; name=&quot;sitesearch&quot; value=&quot;clairtonluz.github.io&quot;/&gt;
+	&lt;input type=&quot;text&quot; name=&quot;q&quot; size=20 class=&quot;form-control&quot;  style=&quot;height:200%; margin-top:10px;&quot; placeholder=&quot;Procurar&quot;/&gt;
+&lt;/form&gt;
+
+	</description>
+    </item>
     <item>
       <title>Como fazer para pausar por um determinado tempo um script em shell?</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014031399.html</link>
