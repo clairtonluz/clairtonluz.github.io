@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="pt-br">
-    <title>Clairton Luz</title>
+    <title>JavaFX como injectar um arquivo.fxml dentro de outro e acessar o controller deste arquivo atravez do controller do primeiro.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Clairton Carneiro Luz">
@@ -67,13 +67,14 @@
 	
 	
     <div class="container">
-
+	
 	<div class="page-header">
-		<h1>Clairton Luz</h1>
+		<h1>JavaFX como injectar um arquivo.fxml dentro de outro e acessar o controller deste arquivo atravez do controller do primeiro.</h1>
 	</div>
-				<a href="/blog/2014/04/2014042499.html"><h1>JavaFX como injectar um arquivo.fxml dentro de outro e acessar o controller deste arquivo atravez do controller do primeiro.</h1></a>
-				<p>24 April 2014</p>
-				<p>
+
+	<p><em>24 April 2014</em></p>
+
+	<p>
 Supondo que voce tenha o seguitente arquivo chamado de <b>main.fxml</b>
 <script src="https://gist.github.com/clairtonluz/aeadf6e4f5a041381db5.js"></script>
 
@@ -99,163 +100,9 @@ pronto!
 
 
 </p>
-				<a href="/blog/2014/03/2014033099.html"><h1>f:ConverteDateTime reduzindo um dia da data selecionada.</h1></a>
-				<p>30 March 2014</p>
-				<p>
-Quando usamos o f:converteDateTime da seguinte forma .<br/><br/>
 
-<script src="https://gist.github.com/clairtonluz/9871498.js"></script>
-
-e selecionamos por exemplo o dia <b>30/03/2014</b> o f:converteDateTime redur um dia e converte a data no campo para <b>29/03/2014</b>. Para 
-resolver esse problema temos que adicionar o parametro timeZone como mostra no exemplo abaixo.
-
-<script src="https://gist.github.com/clairtonluz/9871456.js"></script>
-
-com isso o problema está resolvido.
-
-</p>
-				<a href="/blog/2014/03/2014032299.html"><h1>Novos namespaces do JSF 2.2</h1></a>
-				<p>22 March 2014</p>
-				<p>
-É preciso alterar alguns arquivos então vamos lá.<br/><br/>
-
-abaixo você verá a configuração do faces-config.xml para JSF 2.2
-
-<script src="https://gist.github.com/clairtonluz/9708291.js"></script>
-
-e na sua <b>page.xhtml</b> fica da seguinte forma:
-
-<script src="https://gist.github.com/clairtonluz/9708335.js"></script>
-
-Veja também mudanças em outros namespaces:<br/><br/>
-
-<table class="table table-striped table-bordered">
-<thead>
-	<tr>
-		<th class="tableColumnsHeader" scope="col">namespace antigo</th>
-		<th class="tableColumnsHeader" scope="col">JSF 2.2 namespace</th>
-	</tr>
-</thead>
-<tbody>
-	<tr>
-		<td>http://java.sun.com/jsf/core</td>
-		<td>http://xmlns.jcp.org/jsf/core</td>
-	</tr>
-	<tr>
-		<td>
-			http://java.sun.com/jsf/html	
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsf/html
-		</td>
-	</tr>
-	<tr>
-		<td>
-			http://java.sun.com/jsf/facelets	
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsf/facelets
-		</td>
-	</tr>
-	<tr>
-		<td>
-			http://java.sun.com/jsf/composite	
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsf/composite
-		</td>
-	</tr>
-
-	<tr>
-		<td>
-			http://java.sun.com/jsp/jstl/core	
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsp/jstl/core
-		</td>
-	</tr>
-	<tr>
-		<td>
-			http://java.sun.com/jsp/jstl/functions	
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsp/jstl/functions
-		</td>
-	</tr>
-	<tr>
-		<td>
-			http://java.sun.com/jsf/passthrough
-		</td>
-		<td>
-			http://xmlns.jcp.org/jsf/passthrough
-		</td>
-	</tr>
-</tbody>
-</table>
-</p>
-				<a href="/blog/2014/03/2014032199.html"><h1>Adicionar pesquisa no seu site utilizando o google</h1></a>
-				<p>21 March 2014</p>
-				<p>
-Basta criar um formulário da seguinte forma:
-
-<script src="https://gist.github.com/clairtonluz/9686306.js"></script>
-
-E substituir o valor do input hidden de <b>SEU SITE AQUI</b> para o endereço 
-do seu site, por exemplo: <b>clairtonluz.github.io</b><br/><br/>
-Fazendo isso quando um usuário pesquisar nesse formulário os 
-resultados exibidos serão relacionados ao seu site.<br/><br/>
-
-Faça um teste com o campo abaixo. procure por algum poste deste blog.
-
-<form action="http://www.google.com/search" method="GET"  class="form-horizontal">
-	<input type="hidden" name="sitesearch" value="clairtonluz.github.io"/>
-	<input type="text" name="q" size=20 class="form-control"  style="height:200%; margin-top:10px;" placeholder="Procurar"/>
-</form>
-</p>
-				<a href="/blog/2014/03/2014031399.html"><h1>Como fazer para pausar por um determinado tempo um script em shell?</h1></a>
-				<p>15 March 2014</p>
-				<p>
-Você precisa adicionar um comando sleep para adicionar um atraso no seu script, veja a sintax do commando abaixo:
-
-<script src="https://gist.github.com/clairtonluz/c87701b2077c1d6b143d.js"></script>
-
-Onde o SUFIXO pode ser:<br/><br/>
-
-s para segundos (padrão)<br/>
-m para minutos.<br/>
-h para horas.<br/>
-d para dias.<br/>
-
-<script src="https://gist.github.com/clairtonluz/1752cbfa50a8ef685e17.js"></script>
-
-exemplo de script
-
-<script src="https://gist.github.com/clairtonluz/9568054.js"></script>
-
-fonte: <a href="http://www.cyberciti.biz/faq/linux-unix-sleep-bash-scripting/">cyberciti</a>
-
-
-</p>
-				<a href="/blog/2014/03/2014030799.html"><h1>Exemplo de Multiplos inserts com select em um unico insert</h1></a>
-				<p>07 March 2014</p>
-				<p>
-Veja no exemplo abaixo:
-<script src="https://gist.github.com/clairtonluz/9415524.js"></script>
-
-</p>
-				<a href="/blog/2014/03/2014030699.html"><h1>Instalando java no Firefox do linux</h1></a>
-				<p>06 March 2014</p>
-				<p>
-Basta instalar o pacote icedtea-web. Execute o camando abaixo de acordo com sua distribuição. Lembrando que terá que ter privilegios de administrador
-
-<script src="https://gist.github.com/clairtonluz/9393191.js"></script>
-
-</p>
+	<hr>
 	
-	<hr />
-	
-	<p>Veja outros posts <a href="/archive.html">Todos os posts</a>.</p>
-
 		</div>
 		<div id="push"></div>
     </div>

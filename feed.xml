@@ -6,9 +6,43 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Sun, 30 Mar 2014 08:31:30 -0300</pubDate>
-    <lastBuildDate>Sun, 30 Mar 2014 08:31:30 -0300</lastBuildDate>
+    <pubDate>Thu, 24 Apr 2014 12:11:35 -0300</pubDate>
+    <lastBuildDate>Thu, 24 Apr 2014 12:11:35 -0300</lastBuildDate>
 
+    <item>
+      <title>JavaFX como injectar um arquivo.fxml dentro de outro e acessar o controller deste arquivo atravez do controller do primeiro.</title>
+      <link>http://clairtonluz.github.io//blog/2014/04/2014042499.html</link>
+      <pubDate>Thu, 24 Apr 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/04/2014042499.html</guid>
+      	<description>
+	
+Supondo que voce tenha o seguitente arquivo chamado de &lt;b&gt;main.fxml&lt;/b&gt;
+&lt;script src=&quot;https://gist.github.com/clairtonluz/aeadf6e4f5a041381db5.js&quot;&gt;&lt;/script&gt;
+
+e você deseja injetar dentro dele este outro arquivo chamado &lt;b&gt;pesquisa.fxml&lt;/b&gt;
+&lt;script src=&quot;https://gist.github.com/clairtonluz/11257125.js&quot;&gt;&lt;/script&gt;
+
+para isso basta adicionar a seguinte tag no local onde deseja injetar.
+&lt;script src=&quot;https://gist.github.com/clairtonluz/11257482.js&quot;&gt;&lt;/script&gt;
+
+Com isso você acaba de adicionar o &lt;b&gt;pesquisa.fxml&lt;/b&gt; dentro do &lt;b&gt;main.fxml&lt;/b&gt;
+&lt;/br&gt;&lt;/br&gt;
+
+Agora se você deseja ter acesso ao &lt;b&gt;pesquisaController&lt;/b&gt; atravez do &lt;b&gt;mainController&lt;/b&gt; você deve adiciona-lo dentro
+do &lt;b&gt;mainController&lt;/b&gt; da seguinte forma:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/11257828.js&quot;&gt;&lt;/script&gt;
+
+perceba que o nome da variável não pode ser qualquer nome, esse nome é formado pelo &lt;b&gt;fx:id + &quot;Controller&quot;&lt;/b&gt;, ou seja, 
+&lt;b&gt;fx:id=&quot;testePesquisa&quot;&lt;/b&gt; + a palavra &lt;b&gt;&quot;Controller&quot;&lt;/b&gt; = &lt;b&gt;testePesquisaController&lt;/b&gt;.
+&lt;/br&gt;
+&lt;/br&gt;
+pronto!
+
+
+
+	</description>
+    </item>
     <item>
       <title>f:ConverteDateTime reduzindo um dia da data selecionada.</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014033099.html</link>
