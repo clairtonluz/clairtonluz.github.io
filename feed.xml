@@ -6,9 +6,25 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Thu, 24 Apr 2014 14:28:01 -0300</pubDate>
-    <lastBuildDate>Thu, 24 Apr 2014 14:28:01 -0300</lastBuildDate>
+    <pubDate>Mon, 28 Apr 2014 11:19:24 -0300</pubDate>
+    <lastBuildDate>Mon, 28 Apr 2014 11:19:24 -0300</lastBuildDate>
 
+    <item>
+      <title>Como instalar o navegador Google Chrome no Xubuntu 14.04.</title>
+      <link>http://clairtonluz.github.io//blog/2014/04/2014042899.html</link>
+      <pubDate>Mon, 28 Apr 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/04/2014042899.html</guid>
+      	<description>
+	
+Siga os passos abaixo para instalar o Google Chromer no seu Linux Xubuntu 14.04.
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/11373336.js&quot;&gt;&lt;/script&gt;
+
+
+
+
+	</description>
+    </item>
     <item>
       <title>Calculando diferença entre datas no java 8</title>
       <link>http://clairtonluz.github.io//blog/2014/04/2014042498.html</link>
