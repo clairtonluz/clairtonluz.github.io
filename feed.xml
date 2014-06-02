@@ -6,9 +6,61 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Wed, 28 May 2014 12:14:39 -0300</pubDate>
-    <lastBuildDate>Wed, 28 May 2014 12:14:39 -0300</lastBuildDate>
+    <pubDate>Mon, 2 Jun 2014 10:35:35 -0300</pubDate>
+    <lastBuildDate>Mon, 2 Jun 2014 10:35:35 -0300</lastBuildDate>
 
+    <item>
+      <title>Como alterar a caixa das palavras com CSS</title>
+      <link>http://clairtonluz.github.io//blog/2014/06/2014060299.html</link>
+      <pubDate>Mon, 2 Jun 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">/blog/2014/06/2014060299.html</guid>
+      	<description>
+	
+Para isso basta utilizar a seguinte propriedade com um dos paramentos possíveis de acordo com a sua necessidade.
+
+text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
+
+
+&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;&lt;tr&gt;
+    &lt;th style=&quot;width:14%&quot;&gt;Valor&lt;/th&gt;
+    &lt;th&gt;Descrição&lt;/th&gt;
+    &lt;th&gt;Teste aqui&lt;/th&gt;    
+  &lt;/tr&gt;  
+  &lt;tr&gt;
+    &lt;td&gt;none&lt;/td&gt;
+    &lt;td&gt;Não aplica nenhum efeito, o texto é renderizado do jeito que é. Esse é o padrão&lt;/td&gt;
+	&lt;td&gt;&lt;a target=&quot;_blank&quot; class=&quot;playitbtn&quot; href=&quot;http://www.w3schools.com/cssref/playit.asp?filename=playcss_text-transform&quot;&gt;Teste aqui »&lt;/a&gt;&lt;/td&gt;                	
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;capitalize&lt;/td&gt;
+    &lt;td&gt;Transforma a primeira letra de cada palavra em maiuscula&lt;/td&gt;
+	&lt;td&gt;&lt;a target=&quot;_blank&quot; class=&quot;playitbtn&quot; href=&quot;http://www.w3schools.com/cssref/playit.asp?filename=playcss_text-transform&amp;amp;preval=capitalize&quot;&gt;Teste aqui »&lt;/a&gt;&lt;/td&gt;                    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;uppercase&lt;/td&gt;
+    &lt;td&gt;Transforma todas as letras em maiusculas&lt;/td&gt;
+	&lt;td&gt;&lt;a target=&quot;_blank&quot; class=&quot;playitbtn&quot; href=&quot;http://www.w3schools.com/cssref/playit.asp?filename=playcss_text-transform&amp;amp;preval=uppercase&quot;&gt;Teste aqui »&lt;/a&gt;&lt;/td&gt;                    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;lowercase&lt;/td&gt;
+    &lt;td&gt;Transforms all characters to lowercase&lt;/td&gt;
+	&lt;td&gt;&lt;a target=&quot;_blank&quot; class=&quot;playitbtn&quot; href=&quot;http://www.w3schools.com/cssref/playit.asp?filename=playcss_text-transform&amp;amp;preval=lowercase&quot;&gt;Teste aqui »&lt;/a&gt;&lt;/td&gt;                    
+  &lt;/tr&gt;
+	&lt;tr&gt;
+    &lt;td&gt;initial&lt;/td&gt;
+    &lt;td&gt;Define essa propriedade para o valor default. &lt;a href=&quot;css_initial.asp&quot;&gt;Leia sobre &lt;em&gt;initial&lt;/em&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;a target=&quot;_blank&quot; class=&quot;playitbtn&quot; href=&quot;http://www.w3schools.com/cssref/playit.asp?filename=playcss_text-transform&amp;amp;preval=initial&quot;&gt;Teste aqui »&lt;/a&gt;&lt;/td&gt;                    
+    &lt;/tr&gt;
+	&lt;tr&gt;
+    &lt;td&gt;inherit&lt;/td&gt;
+    &lt;td&gt;Herda essa propriedade do seu elemento pai. &lt;a href=&quot;css_inherit.asp&quot;&gt;Leia sobre &lt;em&gt;inherit&lt;/em&gt;&lt;/a&gt;&lt;/td&gt;
+	&lt;td&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+	</description>
+    </item>
     <item>
       <title>Atalhos do Eclipse</title>
       <link>http://clairtonluz.github.io//blog/2014/05/2014050699.html</link>
