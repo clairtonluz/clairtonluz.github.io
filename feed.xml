@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>...</description>
     <language>en-gb</language>
-    <pubDate>Tue, 10 Jun 2014 12:37:46 -0300</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2014 12:37:46 -0300</lastBuildDate>
+    <pubDate>Tue, 10 Jun 2014 12:48:31 -0300</pubDate>
+    <lastBuildDate>Tue, 10 Jun 2014 12:48:31 -0300</lastBuildDate>
 
     <item>
       <title>Como contribuir com um projeto open source no github</title>
@@ -20,7 +20,7 @@
 	Primeira escolha o projeto que você deseja contribuir, por exemplo: &lt;a href=&quot;https://github.com/bytecomoficial/bytecom&quot;&gt;https://github.com/bytecomoficial/bytecom&lt;/a&gt;. &lt;br/&gt;
 	&lt;/li&gt;
 	&lt;li&gt;
-	Depois acesse a pagina do projeto no github e click no botão chamado &lt;b&gt;Fork&lt;/b&gt; para fazer uma copia do projeto para o seu perfil. 
+	Depois acesse a página do projeto no github e click no botão chamado &lt;b&gt;Fork&lt;/b&gt; para fazer uma cópia do projeto para o seu perfil. 
 	&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
@@ -30,7 +30,7 @@
 &lt;br/&gt;
 &lt;ul&gt;
 	&lt;li&gt;
-	Clique no seu nome para ir a sua pagina inicial.
+	Clique no seu nome para ir a sua página inicial.
 	&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
@@ -40,9 +40,12 @@
 &lt;br/&gt;
 &lt;ul&gt;
 	&lt;li&gt;
-		Localize a copia do projeto e faça o clone para sua maquina executando o seguinte comando em seu terminal: &lt;b&gt;git clone linkDoProjeto&lt;/b&gt; você precisa ter o git instalado na sua maquina veja o exemplo a seguir.
+		Localize a cópia do projeto e faça o clone para sua máquina executando o seguinte comando em seu terminal: &lt;b&gt;git clone linkDoProjeto&lt;/b&gt; você precisa ter o git instalado na sua maquina veja o exemplo a seguir.
 	&lt;/li&gt;
 &lt;/ul&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;img src=&quot;/img/posts/linkProjeto.png&quot; alt=&quot;imagem&quot;&gt;
 &lt;br/&gt;
 &lt;br/&gt;
 &lt;script src=&quot;https://gist.github.com/clairtonluz/297bd4f8c85d35a4e666.js&quot;&gt;&lt;/script&gt;
@@ -53,7 +56,7 @@
 		Agora você faz as alterações que você deseja contribuir com o projeto.
 	&lt;/li&gt;
 	&lt;li&gt;
-		Manda as alterações que acabou de fazer para o seu repositorio remoto com os seguintes comandos:
+		Manda as alterações que acabou de fazer para o seu repositório remoto com os seguintes comandos:
 	&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br/&gt;
