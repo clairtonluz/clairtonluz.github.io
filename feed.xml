@@ -6,9 +6,21 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Thu, 12 Jun 2014 12:03:21 -0300</pubDate>
-    <lastBuildDate>Thu, 12 Jun 2014 12:03:21 -0300</lastBuildDate>
+    <pubDate>Thu, 12 Jun 2014 12:04:52 -0300</pubDate>
+    <lastBuildDate>Thu, 12 Jun 2014 12:04:52 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Como instalar o skype no fedora 20</title>
+      <link>http://clairtonluz.github.io//blog/2014/06/2014061299.html</link>
+      <pubDate>Thu, 12 Jun 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/06/2014061299.html</guid>
+      <description>
+      
+&lt;script src=&quot;https://gist.github.com/clairtonluz/f8fe1574c55f5ee454ad.js&quot;&gt;&lt;/script&gt;
+
+	  </description>
+    </item>
     
     <item>
       <title>Como contribuir com um projeto open source no github</title>
