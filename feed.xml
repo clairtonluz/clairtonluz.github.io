@@ -4,18 +4,19 @@
     <title>Clairton</title>
     <link>http://clairtonluz.github.io/</link>
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <description>...</description>
+    <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Tue, 10 Jun 2014 13:11:42 -0300</pubDate>
-    <lastBuildDate>Tue, 10 Jun 2014 13:11:42 -0300</lastBuildDate>
+    <pubDate>Thu, 12 Jun 2014 11:54:02 -0300</pubDate>
+    <lastBuildDate>Thu, 12 Jun 2014 11:54:02 -0300</lastBuildDate>
 
+    
     <item>
       <title>Como contribuir com um projeto open source no github</title>
       <link>http://clairtonluz.github.io//blog/2014/06/2014061099.html</link>
       <pubDate>Tue, 10 Jun 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/06/2014061099.html</guid>
-      	<description>
-	&lt;ul&gt;
+      <guid isPermaLink="false">blog/2014/06/2014061099.html</guid>
+      <description>
+      &lt;ul&gt;
 	&lt;li&gt;
 	Primeira escolha o projeto que você deseja contribuir, por exemplo: &lt;a href=&quot;https://github.com/bytecomoficial/bytecom&quot;&gt;https://github.com/bytecomoficial/bytecom&lt;/a&gt;. &lt;br/&gt;
 	&lt;/li&gt;
@@ -105,15 +106,16 @@
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como alterar a caixa das palavras com CSS</title>
       <link>http://clairtonluz.github.io//blog/2014/06/2014060299.html</link>
       <pubDate>Mon, 2 Jun 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/06/2014060299.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/06/2014060299.html</guid>
+      <description>
+      
 Para isso basta utilizar a seguinte propriedade com um dos paramentos possíveis de acordo com a sua necessidade.
 
 text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
@@ -157,15 +159,16 @@ text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
     &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Atalhos do Eclipse</title>
       <link>http://clairtonluz.github.io//blog/2014/05/2014050699.html</link>
       <pubDate>Tue, 6 May 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/05/2014050699.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/05/2014050699.html</guid>
+      <description>
+      
  
 &lt;div class=&quot;table&quot;&gt;&lt;a name=&quot;d254937e184&quot;&gt;&lt;/a&gt;&lt;p class=&quot;title&quot;&gt;&lt;b&gt;Tabela&amp;nbsp;1.&amp;nbsp;Navegação&lt;/b&gt;&lt;/p&gt;
   &lt;div class=&quot;table-contents&quot;&gt;
@@ -544,15 +547,16 @@ text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
 
 &lt;b&gt;FONTE:&lt;/b&gt; http://www.vogella.com/tutorials/EclipseShortcuts/article.html
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como adicionar alias em Linux para os comandos do git</title>
       <link>http://clairtonluz.github.io//blog/2014/04/2014042898.html</link>
       <pubDate>Mon, 28 Apr 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/04/2014042898.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/04/2014042898.html</guid>
+      <description>
+      
 Isso serve para agilizar durante o seu trabalho utilizando o git. Quando você deseja baixar 
 as alterações do seu repositório remoto é utilizado o comando &lt;b&gt;git pull origin master&lt;/b&gt; 
 ao invés disso você pode simplesmente digitar &lt;b&gt;gpl&lt;/b&gt; e terá o mesmo efeito se você tiver 
@@ -571,15 +575,16 @@ Se for este o seu caso, então adicione no final do arquivo os seguintes alias.
 Agora faça o &lt;b&gt;log out&lt;/b&gt; e então já poderá utilizar estes alias.
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como instalar o navegador Google Chrome no Xubuntu 14.04.</title>
       <link>http://clairtonluz.github.io//blog/2014/04/2014042899.html</link>
       <pubDate>Mon, 28 Apr 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/04/2014042899.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/04/2014042899.html</guid>
+      <description>
+      
 Siga os passos abaixo para instalar o Google Chromer no seu Linux Xubuntu 14.04.
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/11373336.js&quot;&gt;&lt;/script&gt;
@@ -587,29 +592,31 @@ Siga os passos abaixo para instalar o Google Chromer no seu Linux Xubuntu 14.04.
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Calculando diferença entre datas no java 8</title>
       <link>http://clairtonluz.github.io//blog/2014/04/2014042498.html</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/04/2014042498.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/04/2014042498.html</guid>
+      <description>
+      
 Veja no exemplo abaixo:
 &lt;script src=&quot;https://gist.github.com/clairtonluz/11262338.js&quot;&gt;&lt;/script&gt;
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>JavaFX como injectar um arquivo.fxml dentro de outro e acessar o controller deste arquivo atravez do controller do primeiro.</title>
       <link>http://clairtonluz.github.io//blog/2014/04/2014042499.html</link>
       <pubDate>Thu, 24 Apr 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/04/2014042499.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/04/2014042499.html</guid>
+      <description>
+      
 Supondo que voce tenha o seguitente arquivo chamado de &lt;b&gt;main.fxml&lt;/b&gt;
 &lt;script src=&quot;https://gist.github.com/clairtonluz/aeadf6e4f5a041381db5.js&quot;&gt;&lt;/script&gt;
 
@@ -635,15 +642,16 @@ pronto!
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>f:ConverteDateTime reduzindo um dia da data selecionada.</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014033099.html</link>
       <pubDate>Sun, 30 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014033099.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014033099.html</guid>
+      <description>
+      
 Quando usamos o f:converteDateTime da seguinte forma .&lt;br/&gt;&lt;br/&gt;
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9871498.js&quot;&gt;&lt;/script&gt;
@@ -656,15 +664,16 @@ resolver esse problema temos que adicionar o parametro timeZone como mostra no e
 com isso o problema está resolvido.
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Novos namespaces do JSF 2.2</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014032299.html</link>
       <pubDate>Sat, 22 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014032299.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014032299.html</guid>
+      <description>
+      
 É preciso alterar alguns arquivos então vamos lá.&lt;br/&gt;&lt;br/&gt;
 
 abaixo você verá a configuração do faces-config.xml para JSF 2.2
@@ -749,15 +758,16 @@ Veja também mudanças em outros namespaces:&lt;br/&gt;&lt;br/&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Adicionar pesquisa no seu site utilizando o google</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014032199.html</link>
       <pubDate>Fri, 21 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014032199.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014032199.html</guid>
+      <description>
+      
 Basta criar um formulário da seguinte forma:
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9686306.js&quot;&gt;&lt;/script&gt;
@@ -774,15 +784,16 @@ Faça um teste com o campo abaixo. procure por algum poste deste blog.
 	&lt;input type=&quot;text&quot; name=&quot;q&quot; size=20 class=&quot;form-control&quot;  style=&quot;height:200%; margin-top:10px;&quot; placeholder=&quot;Procurar&quot;/&gt;
 &lt;/form&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como fazer para pausar por um determinado tempo um script em shell?</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014031399.html</link>
       <pubDate>Sat, 15 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014031399.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014031399.html</guid>
+      <description>
+      
 Você precisa adicionar um comando sleep para adicionar um atraso no seu script, veja a sintax do commando abaixo:
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/c87701b2077c1d6b143d.js&quot;&gt;&lt;/script&gt;
@@ -804,70 +815,75 @@ fonte: &lt;a href=&quot;http://www.cyberciti.biz/faq/linux-unix-sleep-bash-scrip
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Exemplo de Multiplos inserts com select em um unico insert</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014030799.html</link>
       <pubDate>Fri, 7 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014030799.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014030799.html</guid>
+      <description>
+      
 Veja no exemplo abaixo:
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9415524.js&quot;&gt;&lt;/script&gt;
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Instalando java no Firefox do linux</title>
       <link>http://clairtonluz.github.io//blog/2014/03/2014030699.html</link>
       <pubDate>Thu, 6 Mar 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/03/2014030699.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/03/2014030699.html</guid>
+      <description>
+      
 Basta instalar o pacote icedtea-web. Execute o camando abaixo de acordo com sua distribuição. Lembrando que terá que ter privilegios de administrador
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9393191.js&quot;&gt;&lt;/script&gt;
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como remover datasource configurado no wildfly</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014022799.html</link>
       <pubDate>Thu, 27 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014022799.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014022799.html</guid>
+      <description>
+      
 1) acesse o diretório &lt;b&gt;$WILDFLY_HOME/bin&lt;/b&gt;&lt;br/&gt;
 2) inicie o servidor:
 &lt;script src=&quot;https://gist.github.com/clairtonluz/ded4d893cb93e1d2943c.js&quot;&gt;&lt;/script&gt;
 3) agora abra outro terminal e vá para o diretório  &lt;b&gt;$WILDFLY_HOME/bin&lt;/b&gt; novamente e execute o seguinte comando trocando o &lt;b&gt;&apos;datasourceNameDS&apos;&lt;/b&gt; pelo nome do seu datasource:
 &lt;script src=&quot;https://gist.github.com/clairtonluz/8bad4fa71fd7d2aca625.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Exemplo de configuração de persistence.xml como JTA ou RESOURCE LOCAL para Hibernate com MySQL</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014022699.html</link>
       <pubDate>Wed, 26 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014022699.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014022699.html</guid>
+      <description>
+      
 Segue abaixo o exemplo de configuração do arquivo de persistence.xml
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/00df9e1d8fb21e5bf8fd.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como saber qual DNS está sendo usado.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014022198.html</link>
       <pubDate>Fri, 21 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014022198.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014022198.html</guid>
+      <description>
+      
 
 Com esse comando será exibido qual serviço de DNS está sendo usado pelo seu compudador. Ele retornará o IP do servidor DNS
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9141750.js&quot;&gt;&lt;/script&gt;
@@ -875,43 +891,46 @@ Com esse comando será exibido qual serviço de DNS está sendo usado pelo seu c
 Veja o exemplo abaixo, neste caso o servidor DNS é 189.90.16.20
 &lt;script src=&quot;https://gist.github.com/clairtonluz/2d1bed59054c41f19ad4.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Script de configuração do wildfly para o projeto Hurraa do CEJUG</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014022199.html</link>
       <pubDate>Fri, 21 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014022199.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014022199.html</guid>
+      <description>
+      
 Para configurar o wildfly para rodar o projeto &lt;a href=&quot;https://github.com/cejug/hurraa&quot;&gt;Hurraa do CEJUG&lt;/a&gt; 
 basta executar o script abaixo como root.&lt;/br&gt;
 Depois disso basta fazer o deploy da aplicação. Para baixar o projeto acesse o link: &lt;a href=&quot;https://github.com/cejug/hurraa&quot;&gt;https://github.com/cejug/hurraa&lt;/a&gt; 
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9d1eb66c590f985e883f.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Exibir foreign key de uma tabela no MySQL.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021899.html</link>
       <pubDate>Tue, 18 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014021899.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014021899.html</guid>
+      <description>
+      
 Troque &apos;nomeDaTabelaPai&apos; pelo nome da tabela pai e será exibido todas as tabela filhas e suas constraints
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9072360.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Auto ajuste das colunas TableColumn de uma tabela TableView em JavaFX</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021399.html</link>
       <pubDate>Thu, 13 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014021399.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014021399.html</guid>
+      <description>
+      
 Nova caracterisca no JavaFX 2.2 ou superior&lt;br/&gt;
 
 Em FXML para permitir que as colunas da tabela se auto ajuste ao tamanho da tabela tem que definir a politica de redimencionamento das colunas. para isso basta adicionar a tag abaixo dentro da tag da TableView.
@@ -928,15 +947,16 @@ Se você não está usando FXML, a politica de redimencionamento da tabela pode 
 
 fonte:http://stackoverflow.com/questions/11484960/table-column-wont-take-full-size-of-the-table-view-in-javafx
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Vários cursos gratuítos oferecido pelo governo</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021299.html</link>
       <pubDate>Wed, 12 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014021299.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014021299.html</guid>
+      <description>
+      
 &lt;b&gt;Áreas de Formação:&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
 Cursos Ministrados&lt;br/&gt;
 Iniciação Digital&lt;br/&gt;
@@ -950,15 +970,16 @@ Linux Avançado&lt;br/&gt;&lt;br/&gt;
 
 Link para os cursos: &lt;a href=&quot;http://utd.sct.ce.gov.br/index.php/areas-de-formacao&quot;&gt;http://utd.sct.ce.gov.br/index.php/areas-de-formacao&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Salvar usuário e senha do git para que não seja mais solicitado</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021098.html</link>
       <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014021098.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014021098.html</guid>
+      <description>
+      
 Para salvar o usuário e senha do git basta executar o seguinte comando dentro de um diretório de um aplicação com git. &lt;br/&gt;
 Se você não quiser que seja salvo o usuário e senha para todos os outros diretorio remova o parametro &lt;b&gt;--global&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
 
@@ -970,15 +991,16 @@ SALVA USUARIO E SENHA PERMANENTE:
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/9668319.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Como instalar o descompressor de arquivos RAR no FEDORA 19</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021099.html</link>
       <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014021099.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014021099.html</guid>
+      <description>
+      
 Adiciona o RPMFUSION (http://www.rpmfusion.org) onde tem os RPM&apos;s para 
 todos os applicativos que necessitas que não são distribuidos pelo Fedora.&lt;br/&gt;&lt;br/&gt;
 
@@ -989,15 +1011,16 @@ Agora é só instalar o unrar e você já poderá descompactar, compactar, coloc
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/b5f6677d5c9a1f0f3322.js&quot;&gt;&lt;/script&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Definindo repositório do MariaDB no CentOS 6 Linux.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020894.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020894.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020894.html</guid>
+      <description>
+      
 
 crie um arquivo chamado &lt;b&gt;MariaDB.repo&lt;/b&gt; dentro de &lt;b&gt;/etc/yum.repos.d/&lt;/b&gt; com o seguinte conteúdo:
 
@@ -1009,15 +1032,16 @@ para saber como instalar veja o seguinte tutorial:&lt;/br&gt;&lt;/br&gt;
 &lt;/br&gt;&lt;/br&gt;
 Fonte: https://downloads.mariadb.org/mariadb/repositories/#mirror=qiming&amp;distro=CentOS&amp;distro_release=centos6-amd64&amp;version=5.5
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Instalar e configurar servidor DHCP no CentOS 6</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020895.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020895.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020895.html</guid>
+      <description>
+      
  Instale o dhcp server e cliente usando o seguinte comando:&lt;/br&gt;&lt;/br&gt;
  
  &lt;script src=&quot;https://gist.github.com/clairtonluz/39d67f2d871f7b76e48a.js&quot;&gt;&lt;/script&gt;
@@ -1048,15 +1072,16 @@ Fonte: https://downloads.mariadb.org/mariadb/repositories/#mirror=qiming&amp;dis
  
 Fonte: http://www.krizna.com/centos/install-configure-dhcp-server-centos-6/
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Solucionar problema de conexão via SSH</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020896.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020896.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020896.html</guid>
+      <description>
+      
 Se está aparecendo a seguinte mensagem para você ao tentar se conectar ao servidor via SSH
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/dd66128470107f563756.js&quot;&gt;&lt;/script&gt;
@@ -1074,15 +1099,16 @@ Isso fará com que as chaves referente a esse ip seja removida e você já pode 
 
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Configurando servidor linux CentOS 6.5 para controle de banda.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020897.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020897.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020897.html</guid>
+      <description>
+      
 Este tutorial considera que você acabou de instalar o CentOS 6.5 e está com conexão a internet.
 
 primeira coisa a se fazer é atualizar o servidor.
@@ -1131,15 +1157,16 @@ HTB tools, squid explicativo&lt;br/&gt;&lt;br/&gt;
 
 &lt;a href=&quot;http://fenixdragom.wordpress.com/2012/10/29/850/&quot;&gt;http://fenixdragom.wordpress.com/2012/10/29/850/&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Instalar repositório RPMforge para CentOS 6.x</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020898.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020898.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020898.html</guid>
+      <description>
+      
 Você pode encontar a lista completa de pacotes RPMforge at &lt;a href=&quot;http://packages.sw.be/&quot;&gt;http://packages.sw.be/&lt;/a&gt;
 
 Baixe o versão compativel com sua arquitetura. Se você não sabe qual é sua arquitetura digite o seguinte comando para descobrir esta informação.
@@ -1177,15 +1204,16 @@ Se você conseguiu instalar o htop entao está tudo pronto.
 &lt;/br&gt;
 Fonte: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Configurar interface eth0, eth1 e etc em CentOS.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020899.html</link>
       <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020899.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020899.html</guid>
+      <description>
+      
 Se sua interface de rede não está configurada então basta executar o seguinte comando e configurar você. É bem fácil e simples configurar por este comando veja abaixo:
 
 
@@ -1211,15 +1239,16 @@ preencha com os dados que desejar. lembrando que o campo Device é o nome que ap
 
 &lt;img src=&quot;/img/posts/5.png&quot; alt=&quot;imagem&quot;&gt;
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>JPA expressão regular para email</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020796.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020796.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020796.html</guid>
+      <description>
+      
 
 Adicione essas @Annotation na variável referente ao email na sua class @Entity 
  
@@ -1227,29 +1256,31 @@ Adicione essas @Annotation na variável referente ao email na sua class @Entity
 
 Você também pode usar outra expressão regular para outros tipos de validações.
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Install MariaDB for Database Server.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020797.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020797.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020797.html</guid>
+      <description>
+      
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/7f95da933270eb965da9.js&quot;&gt;&lt;/script&gt;
 
 fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>JPA expressão regular para email</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020798.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020798.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020798.html</guid>
+      <description>
+      
 
 Adicione essas @Annotation na variável referente ao email na sua class @Entity 
  
@@ -1257,15 +1288,16 @@ Adicione essas @Annotation na variável referente ao email na sua class @Entity
 
 Você também pode usar outra expressão regular para outros tipos de validações.
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020799.html</link>
       <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/02/2014020799.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/02/2014020799.html</guid>
+      <description>
+      
 
 basta executar o seguinte comendo no console
 
@@ -1273,15 +1305,16 @@ basta executar o seguinte comendo no console
 
 autor: Hélio Frota
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
       <link>http://clairtonluz.github.io//blog/2014/01/20140131.html</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/01/20140131.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/01/20140131.html</guid>
+      <description>
+      
 
 Para quem não sabe o atalho &lt;b&gt;Ctrl + Alt + Up&lt;/b&gt; e &lt;b&gt;Ctrl + Alt + Down&lt;/b&gt; serve para duplicar as linhas selecionada, e esse atalho não funciona no eclipse instalado no fedora 19 que vem com gnome.
 
@@ -1294,15 +1327,16 @@ Isso fará com que os atalho do Gnome de mudança de workspace seja desativado, 
 Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
 
 
-	</description>
+	  </description>
     </item>
+    
     <item>
       <title>Comandos para mongoDB shell</title>
       <link>http://clairtonluz.github.io//blog/2014/01/20140130.html</link>
       <pubDate>Thu, 30 Jan 2014 00:00:00 -0300</pubDate>
-      <guid isPermaLink="false">/blog/2014/01/20140130.html</guid>
-      	<description>
-	
+      <guid isPermaLink="false">blog/2014/01/20140130.html</guid>
+      <description>
+      
 
 &lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;documentos em uso para exemplos&lt;/strong&gt;&lt;/p&gt;
 &lt;p dir=&quot;ltr&quot;&gt;coleção de &lt;strong&gt;students&lt;/strong&gt;&lt;/p&gt;
@@ -1363,8 +1397,9 @@ Exibe os index de uma banco
 
 
 
-	</description>
+	  </description>
     </item>
+    
 
   </channel> 
 </rss>
