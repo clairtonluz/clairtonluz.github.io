@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Wed, 18 Jun 2014 13:51:25 -0300</pubDate>
-    <lastBuildDate>Wed, 18 Jun 2014 13:51:25 -0300</lastBuildDate>
+    <pubDate>Fri, 20 Jun 2014 17:01:27 -0300</pubDate>
+    <lastBuildDate>Fri, 20 Jun 2014 17:01:27 -0300</lastBuildDate>
 
     
     <item>
@@ -952,7 +952,7 @@ Troque &apos;nomeDaTabelaPai&apos; pelo nome da tabela pai e será exibido todas
     <item>
       <title>Auto ajuste das colunas TableColumn de uma tabela TableView em JavaFX</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021399.html</link>
-      <pubDate>Thu, 13 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 13 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014021399.html</guid>
       <description>
       
@@ -978,7 +978,7 @@ fonte:http://stackoverflow.com/questions/11484960/table-column-wont-take-full-si
     <item>
       <title>Vários cursos gratuítos oferecido pelo governo</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021299.html</link>
-      <pubDate>Wed, 12 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014021299.html</guid>
       <description>
       
@@ -1001,7 +1001,7 @@ Link para os cursos: &lt;a href=&quot;http://utd.sct.ce.gov.br/index.php/areas-d
     <item>
       <title>Salvar usuário e senha do git para que não seja mais solicitado</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021098.html</link>
-      <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014021098.html</guid>
       <description>
       
@@ -1022,7 +1022,7 @@ SALVA USUARIO E SENHA PERMANENTE:
     <item>
       <title>Como instalar o descompressor de arquivos RAR no FEDORA 19</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014021099.html</link>
-      <pubDate>Mon, 10 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Mon, 10 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014021099.html</guid>
       <description>
       
@@ -1042,7 +1042,7 @@ Agora é só instalar o unrar e você já poderá descompactar, compactar, coloc
     <item>
       <title>Definindo repositório do MariaDB no CentOS 6 Linux.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020894.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020894.html</guid>
       <description>
       
@@ -1063,7 +1063,7 @@ Fonte: https://downloads.mariadb.org/mariadb/repositories/#mirror=qiming&amp;dis
     <item>
       <title>Instalar e configurar servidor DHCP no CentOS 6</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020895.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020895.html</guid>
       <description>
       
@@ -1103,7 +1103,7 @@ Fonte: http://www.krizna.com/centos/install-configure-dhcp-server-centos-6/
     <item>
       <title>Solucionar problema de conexão via SSH</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020896.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020896.html</guid>
       <description>
       
@@ -1130,7 +1130,7 @@ Isso fará com que as chaves referente a esse ip seja removida e você já pode 
     <item>
       <title>Configurando servidor linux CentOS 6.5 para controle de banda.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020897.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020897.html</guid>
       <description>
       
@@ -1188,7 +1188,7 @@ HTB tools, squid explicativo&lt;br/&gt;&lt;br/&gt;
     <item>
       <title>Instalar repositório RPMforge para CentOS 6.x</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020898.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020898.html</guid>
       <description>
       
@@ -1235,7 +1235,7 @@ Fonte: http://wiki.centos.org/AdditionalResources/Repositories/RPMForge
     <item>
       <title>Configurar interface eth0, eth1 e etc em CentOS.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020899.html</link>
-      <pubDate>Sat, 8 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Sat, 8 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020899.html</guid>
       <description>
       
@@ -1270,7 +1270,7 @@ preencha com os dados que desejar. lembrando que o campo Device é o nome que ap
     <item>
       <title>JPA expressão regular para email</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020796.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020796.html</guid>
       <description>
       
@@ -1287,7 +1287,7 @@ Você também pode usar outra expressão regular para outros tipos de validaçõ
     <item>
       <title>Install MariaDB for Database Server.</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020797.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020797.html</guid>
       <description>
       
@@ -1302,7 +1302,7 @@ fonte: http://www.server-world.info/en/note?os=Fedora_19&amp;p=mariadb
     <item>
       <title>JPA expressão regular para email</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020798.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020798.html</guid>
       <description>
       
@@ -1319,7 +1319,7 @@ Você também pode usar outra expressão regular para outros tipos de validaçõ
     <item>
       <title>comando para verificar as portas que estão sendo utilizadas no linux</title>
       <link>http://clairtonluz.github.io//blog/2014/02/2014020799.html</link>
-      <pubDate>Fri, 7 Feb 2014 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 7 Feb 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/02/2014020799.html</guid>
       <description>
       
@@ -1336,7 +1336,7 @@ autor: Hélio Frota
     <item>
       <title>Atalho do eclipse para duplicar linha não funciona no gnome</title>
       <link>http://clairtonluz.github.io//blog/2014/01/20140131.html</link>
-      <pubDate>Fri, 31 Jan 2014 00:00:00 -0300</pubDate>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/01/20140131.html</guid>
       <description>
       
@@ -1358,7 +1358,7 @@ Pronto agora basta aproveitar seu atalho funcionando perfeitamente.
     <item>
       <title>Comandos para mongoDB shell</title>
       <link>http://clairtonluz.github.io//blog/2014/01/20140130.html</link>
-      <pubDate>Thu, 30 Jan 2014 00:00:00 -0300</pubDate>
+      <pubDate>Thu, 30 Jan 2014 00:00:00 -0200</pubDate>
       <guid isPermaLink="false">blog/2014/01/20140130.html</guid>
       <description>
       
