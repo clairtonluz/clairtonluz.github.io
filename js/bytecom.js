@@ -9,3 +9,8 @@ $(document).ready(function () {
 		setTimeout(MessagesMenuWidth, 250);
 	});
 });
+
+function getPath() {
+	var path = document.URL;
+	return path.substring(path.lastIndexOf("/"), path.length);
+}
