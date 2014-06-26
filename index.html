@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <title>Clairton Luz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Clairton Carneiro Luz">
-    <meta name="keywords" content="Clairton">
-    <meta name="generator" content="JBake">
+	<meta charset="utf-8"/>
+	<title>Clairton Luz</title>
+	<link rel="icon" href="#{request.contextPath}/resources/images/logo.png" />
 
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="author" content="Clairton Luz" />
+	
     <!-- Le styles -->
+    <link href="css/bytecom.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/asciidoctor.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -28,46 +30,73 @@
     
     <link rel="shortcut icon" href="favicon.png">
   </head>
-  <body onload="prettyPrint()">
-    <div id="wrap">
+  <body>
+    
+    <!--Start Container-->
+	<header class="navbar">
+	<div class="container-fluid expanded-panel">
+		<div class="row">
+			<div id="logo" class="col-xs-12 col-sm-2">
+				<a href="/">Clairton Luz</a>
+			</div>
+			<div id="top-panel" class="col-xs-12 col-sm-10">
+				<div class="row">
+					<div class="col-xs-8 col-sm-4">
+						<a href="#" class="show-sidebar">
+						  <i class="fa fa-bars"></i>
+						</a>
+						
+								<form action="http://www.google.com/search" method="GET" target="_blank">
+							<div id="search">
+									<input type="hidden" name="sitesearch" value="clairtonluz.github.io"/>
+									<input type="text" name="q"  placeholder="Pesquisar"/>
+									<i class="fa fa-search"></i>
+								
+							</div>
+							</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--End Header-->
+<!--Start Container-->
+<div id="main" class="container-fluid">
    
 
 
-		<!-- Fixed navbar -->
-	
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">Clairton Luz</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="archive.html">Todos os posts</a></li>  
-            <li><a href="about.html">Sobre</a></li>          
-            <li><script type="text/javascript" src="http://counter2.statcounterfree.com/private/counter.js?c=f2b899353388c77ca658754bc0463303"></script><li>
-          </ul>
-          <div margin-right:10px; class="pull-right">
-			<form action="http://www.google.com/search" method="GET"  class="form-horizontal" target="_blank">
-				<input type="hidden" name="sitesearch" value="clairtonluz.github.io"/>
-				<input type="text" name="q" size=20 class="form-control"  style="height:200%; margin:10px; width:200px;" placeholder="Procurar"/>
-			</form>
-		  </div><!--/.busca -->
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-    <div class="container">
+		<div class="row">
+		<div id="sidebar-left" class="col-xs-2 col-sm-2">
+			<ul class="nav main-menu">
+				<li>
+					<a href="index.html" class="active">
+						<i class="fa fa-home"></i>
+						<span class="hidden-xs">Início</span>
+					</a>
+				</li>
+				
+				<li>
+					<a href="archive.html">
+						<i class="fa fa-tag"></i>
+						<span class="hidden-xs">Todos os posts</span>
+					</a>
+				</li>
+				
+				<li>
+					<a href="about.html">
+						<i class="fa fa-book"></i>
+						<span class="hidden-xs">Sobre</span>
+					</a>
+				</li>
+				
 
+			</ul>
+		</div>
+		<!--Start Content-->
+		<div id="content" class="col-xs-12 col-sm-10">
 
-	<div class="page-header">
-		<h1>Clairton Luz</h1>
-	</div>
   	
 	
 		
@@ -255,388 +284,6 @@ text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
 		
   	
 		
-			<a href="blog/2014/05/2014050699.html"><h1>Atalhos do Eclipse</h1></a>
-			<p>06 May 2014</p>
-			<p>
- 
-<div class="table"><a name="d254937e184"></a><p class="title"><b>Tabela&nbsp;1.&nbsp;Navegação</b></p>
-  <div class="table-contents">
-	 <table summary="Navigation" border="1">
-							<colgroup>
-		   <col align="left" class="c1">
-		   <col align="left" class="c2">
-		</colgroup>
-		<thead>
-		   <tr>
-			  <th align="left">Atalho</th>
-			  <th align="left">Descrição</th>
-		   </tr>
-		</thead>
-		<tbody>
-		   <tr>
-			  <td align="left">Ctrl + Shift + R</td>
-			  <td align="left">Dialog de pesquisa para recursos, ex: arquivos de texto, classes java, arquivos html, etc.</td>
-		   </tr>
-		   <tr>
-			  <td align="left">Ctrl + Shift + T</td>
-			  <td align="left">Dialog de pesquisa por tipo</td>
-		   </tr>
-		   <tr>
-			  <td align="left">Ctrl + E</td>
-			  <td align="left">Dialog de pesquisa para selecionar algum arquivo atualmente aberto
-				 
-			  </td>
-		   </tr>
-		   <tr>
-			  <td align="left">Ctrl + F8</td>
-			  <td align="left">Atalho para trocar de pespectiva</td>
-		   </tr>
-		</tbody>
-	 </table>
-  </div>
-</div>
- 
-<div class="section">
-   <div class="table"><a name="d254937e225"></a><p class="title"><b>Tabela 2 Pesquisa no editor</b></p>
-	  <div class="table-contents">
-		 <table summary="SPesquisa no editor" border="1">
-			<colgroup>
-			   <col align="left" class="c1">
-			   <col align="left" class="c2">
-			</colgroup>
-			<thead>
-			   <tr>
-				  <th align="left">Atalho</th>
-				  <th align="left">Descrição</th>
-			   </tr>
-			</thead>
-			<tbody>
-			   <tr>
-				  <td align="left"> F3</td>
-				  <td align="left"> Abre o editor para o elemento selecionado (TIPO)  ou navega para a declaração da variavel selecionada.
-					 
-				  </td>
-			   </tr>
-			   <tr>
-				  <td align="left">Ctrl + .</td>
-				  <td align="left">Vai para o próximo problema / error</td>
-			   </tr>
-			   <tr>
-				  <td align="left">Ctrl + ,</td>
-				  <td align="left">Vai para o problem / error anterior</td>
-			   </tr>
-			   <tr>
-				  <td align="left">F4 na variável</td>
-				  <td align="left"> Exibe a Hierarquia do tipo </td>
-			   </tr>
-			   
-			   <tr>
-				  <td align="left">Ctrl + K</td>
-				  <td align="left">
-					  Procura pelo texto selecionado ou se nada estiver selecionado procura pela ultima pesquisa do 
-					 <span class="guilabel">Find</span>
-					 dialog.
-					 
-				  </td>
-			   </tr>
-			   <tr>
-				  <td align="left">Ctrl + Shift + G</td>
-				  <td align="left">No editor java, pesquisa por referencias no workspace
-				  </td>
-			   </tr>
-			   <tr>
-				  <td align="left">Ctrl + Shift + P</td>
-				  <td align="left">Seleciona o { ou } do seu codigo java. O cursor precisa estar entre as "{}" (Chaves).
-					 
-				  </td>
-			   </tr>
-			</tbody>
-		 </table>
-	  </div>
-   </div>
-   <div class="table"><a name="d254937e284"></a><p class="title"><b>Tabela&nbsp;3.&nbsp;Navegação entre editores</b></p>
-	  <div class="table-contents">
-		 <table summary="Navigation between editors" border="1">
-			<colgroup>
-			   <col align="left" class="c1">
-			   <col align="left" class="c2">
-			</colgroup>
-			<thead>
-			   <tr>
-				  <th align="left">Atalho</th>
-				  <th align="left">Descrição</th>
-			   </tr>
-			</thead>
-			<tbody>
-			   <tr>
-				  <td align="left"> Alt + &#8592;</td>
-				  <td align="left"> Vai para o editor anterior. O cursor é colocado no local onde esta antes de abrir o novo editor.
-					 
-				  </td>
-			   </tr>
-			   <tr>
-				  <td align="left"> Alt + &#8594;</td>
-				  <td align="left"> Similar ao Alt + &#8592; mas abre o próximo editor</td>
-			   </tr>
-			   <tr>
-				  <td align="left">Ctrl + Q</td>
-				  <td align="left"> Vai para o editor e posição do ultimo editor que foi feito alteções.
-					 
-				  </td>
-			   </tr>
-			   <tr>
-				  <td align="left"> Ctrl + PageUp </td>
-				  <td align="left"> Vai para o editor anterior aberto</td>
-			   </tr>
-			   <tr>
-				  <td align="left"> Ctrl + PageDown </td>
-				  <td align="left"> Vai para o próximo editor aberto</td>
-			   </tr>
-			</tbody>
-		 </table>
-	  </div>
-   </div>
-<div class="section">
-<div class="table"><a name="d254937e328"></a><p class="title"><b>Tabela&nbsp;4.&nbsp;Executando programas</b></p>
-   <div class="table-contents">
-	  <table summary="Running programs" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Ctrl + F11</td>
-			   <td align="left">Executar</td>
-			</tr>
-			<tr>
-			   <td align="left">Alt + Shift + X, J</td>
-			   <td align="left">Executa classe selecionada como Aplicaçao Java</td>
-			</tr>
-		 </tbody>
-	  </table>
-   </div>
-</div>
-<p><br class="table-break">
-   
-</p>
-</div> 
-
-<div class="section">
-
-<p>
-	A seguinte lista contem atalhos úteis se você esta dentro do seu Java editor.
-</p>
-<div class="table"><a name="d254937e360"></a><p class="title"><b>Tabela&nbsp;5.&nbsp;Manuseando editor</b></p>
-   <div class="table-contents">
-	  <table summary="Handling the editor" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Ctrl + 1</td>
-			   <td align="left">
-				  Correção rápida; resultado depende da posição do cursor.
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + Space</td>
-			   <td align="left">
-				  completa o código que você esta digitando.
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + T</td>
-			   <td align="left">Exibe a hierarquia da classe java ou metodo.
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + O </td>
-			   <td align="left">Exibe todos os metodos da classe atual, precione Ctrl + O novamente para exibir a hierarquia dos metodos.
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + M</td>
-			   <td align="left"> Maximiza o editor ativo</td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + Shift + F</td>
-			   <td align="left">Formata o código fonte.</td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + I</td>
-			   <td align="left">Corrige a identação, Ex.  formata tabs/espaços no código </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + F</td>
-			   <td align="left">Abre o dialogo de pesquisa  </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + Shift + O</td>
-			   <td align="left"> Organiza os imports; adiciona as instruções de imports faltando and remove os não usados.
-				  
-			   </td>
-			</tr>
-			
-		 </tbody>
-	  </table>
-   </div>
-</div>
-
-<div class="table"><a name="d254937e472"></a><p class="title"><b>Tabela&nbsp;6.&nbsp;Copiar e mover linhas</b></p>
-   <div class="table-contents">
-	  <table summary="Copy and move lines" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Ctrl + Alt + &#8595; ou Ctrl + Alt + &#8593;</td>
-			   <td align="left">Copia a linha ou seleção em que o cursor está localizado.
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Alt + Up ou Alt + Down </td>
-			   <td align="left">Move a linha ou seleção para cima ou para baixo</td>
-			</tr>
-		 </tbody>
-	  </table>
-   </div>
-</div>
-<p><br class="table-break">
-   
-</p>
-<p>
-   
-</p>
-<div class="table"><a name="d254937e508"></a><p class="title"><b>Tabela&nbsp;7.&nbsp;Delete</b></p>
-   <div class="table-contents">
-	  <table summary="Delete" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Ctrl + D</td>
-			   <td align="left">Deleta linha ou seleção</td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + Shift + DEL</td>
-			   <td align="left">Deleta a linha do lado direito do cursor</td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + DEL</td>
-			   <td align="left">Deleta o próximo elemento</td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl + BACKSPACE</td>
-			   <td align="left">Deleta o elemento anterior</td>
-			</tr>
-		 </tbody>
-	  </table>
-   </div>
-</div>
-
-<div class="table"><a name="d254937e544"></a><p class="title"><b>Tabela&nbsp;8.&nbsp;Criar novas linhas</b></p>
-   <div class="table-contents">
-	  <table summary="Create new lines" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Shift + Enter </td>
-			   <td align="left"> Adiciona uma linha em branco abaixo da linha atual e move o cursor para a nova linha. A diferença
-			   entre o ENTER e esse é que a linha atual não é alterada, independentimente da posição do cursor.	
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Ctrl+Shift+Enter </td>
-			   <td align="left">Mesmo que o Shift + Enter mas para cima.
-				  
-			   </td>
-			</tr>
-		 </tbody>
-	  </table>
-   </div>
-</div>
-
-<div class="table"><a name="d254937e599"></a><p class="title"><b>Tabela&nbsp;9.&nbsp;Codificação</b></p>
-   <div class="table-contents">
-	  <table summary="Coding" border="1">
-		 <colgroup>
-			<col align="left" class="c1">
-			<col align="left" class="c2">
-		 </colgroup>
-		 <thead>
-			<tr>
-			   <th align="left">Atalho</th>
-			   <th align="left">Descrição</th>
-			</tr>
-		 </thead>
-		 <tbody>
-			<tr>
-			   <td align="left">Shift + F2</td>
-			   <td align="left"> Exibe o Javadoc para o tipo / class / metodo selecionado
-				  
-			   </td>
-			</tr>
-			<tr>
-			   <td align="left">Alt+Shift + N</td>
-			   <td align="left"> Atalho para o menu para criar novos objetos</td>
-			</tr>
-			<tr>
-			   <td align="left">Alt + Shift + Z</td>
-			   <td align="left"> Criar um block com try e catch no codigo selecionado</td>
-			</tr>
-		 </tbody>
-	  </table>
-   </div>
-</div>
-
-<b>FONTE:</b> http://www.vogella.com/tutorials/EclipseShortcuts/article.html
-</p>
-		
   	
 		
   	
@@ -703,22 +350,22 @@ text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
 	
 	<p>Veja os outros posts <a href="/archive.html">Todos os posts</a>.</p>
 
+		
+		
+		
 		</div>
-		<div id="push"></div>
-    </div>
-    
-    <div id="footer">
-      <div class="container">
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.3.0</a></p>
-      </div>
-    </div>
-    
+		<!--End Content-->
+	</div>
+</div>
+<!--End Container-->
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/prettify.js"></script>
+    <script src="js/bytecom.js"></script>
     
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
