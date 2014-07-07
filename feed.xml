@@ -6,9 +6,39 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Mon, 7 Jul 2014 09:10:50 -0300</pubDate>
-    <lastBuildDate>Mon, 7 Jul 2014 09:10:50 -0300</lastBuildDate>
+    <pubDate>Mon, 7 Jul 2014 10:35:01 -0300</pubDate>
+    <lastBuildDate>Mon, 7 Jul 2014 10:35:01 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>JBOSS/WILDFLY maven plugin para deploy LOCALHOST/REMOTE server</title>
+      <link>http://clairtonluz.github.io//blog/2014/07/2014070798.html</link>
+      <pubDate>Mon, 7 Jul 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/07/2014070798.html</guid>
+      <description>
+      
+Coloque as propriedades do seu server no arquivo settings.xml do maven (encontrado no diretório .m2 ) como esse:
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/6cc6b282c23cc254e65d.js&quot;&gt;&lt;/script&gt;
+
+No arquivo pom.xml coloque os plugins dentro do build&gt;plugins&gt; e defina os parametros de configuração do servidor com o maven properties (sem adiciona-lo em seu pom):
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/994c3952dc3ce4fd5559.js&quot;&gt;&lt;/script&gt;
+
+&lt;br/&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/9d13fb1ef554d410b8cd.js&quot;&gt;&lt;/script&gt;
+
+Você também pode executar undeploy, redeploy… Para mais informações veja: &lt;a href=&quot;https://docs.jboss.org/wildfly/plugins/maven/latest/&quot;&gt;https://docs.jboss.org/wildfly/plugins/maven/latest/&lt;/a&gt;
+
+&lt;b&gt;Fonte:&lt;/b&gt; 
+&lt;a href=&quot;http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/&quot; target=&quot;_blank&quot;&gt;http://lauraliparulo.altervista.org/jboss-wildfly-maven-plugin-to-deploy-on-localhostremote-server/&lt;/a&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Arquivos de configuração do google style</title>
