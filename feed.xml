@@ -6,9 +6,34 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Wed, 2 Jul 2014 17:17:17 -0300</pubDate>
-    <lastBuildDate>Wed, 2 Jul 2014 17:17:17 -0300</lastBuildDate>
+    <pubDate>Mon, 7 Jul 2014 09:10:50 -0300</pubDate>
+    <lastBuildDate>Mon, 7 Jul 2014 09:10:50 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Arquivos de configuração do google style</title>
+      <link>http://clairtonluz.github.io//blog/2014/07/2014070799.html</link>
+      <pubDate>Mon, 7 Jul 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/07/2014070799.html</guid>
+      <description>
+      
+
+Estes arquivos servem para alterar o estilo da formatação do seu codigo fonte, seguindo o padrão do google.&lt;br/&gt;&lt;br/&gt;
+
+&lt;b&gt;Versão java para Eclipse:&lt;/b&gt;&lt;br/&gt;
+&lt;a href=&quot;/files/eclipse-java-google-style.xml&quot; target=&quot;_blank&quot;&gt;eclipse-java-google-style.xml&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+&lt;b&gt;Versão java para Intellij:&lt;/b&gt;&lt;br/&gt;
+&lt;a href=&quot;/files/intellij-java-google-style.xml&quot; target=&quot;_blank&quot;&gt;intellij-java-google-style.xml&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;
+
+&lt;b&gt;Outras versões:&lt;/b&gt;&lt;br/&gt;
+&lt;a href=&quot;https://google-styleguide.googlecode.com/svn/trunk/&quot; target=&quot;_blank&quot;&gt;Google Trunk&lt;/a&gt;
+
+
+
+
+	  </description>
+    </item>
     
     <item>
       <title>Configurando o wildfly para subir como serviço no linux Red Hat, CentOS e derivados </title>
