@@ -184,7 +184,7 @@ a.show-sidebar:hover {
 }
 #search > input {
   width: 80%;
-  background: #dfdfdf;
+  background: #ffffff;
   border: 1px solid #C7C7C7;
   text-shadow:0 1px 1px #EEE;
   -webkit-border-radius: 3px;
@@ -204,7 +204,7 @@ a.show-sidebar:hover {
   position: absolute;
   top: 18px;
   right: 10px;
-  color: #fff;
+  color: #C7C7C7;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
