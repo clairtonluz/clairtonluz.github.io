@@ -6,8 +6,8 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Mon, 7 Jul 2014 16:06:13 -0300</pubDate>
-    <lastBuildDate>Mon, 7 Jul 2014 16:06:13 -0300</lastBuildDate>
+    <pubDate>Wed, 9 Jul 2014 10:16:54 -0300</pubDate>
+    <lastBuildDate>Wed, 9 Jul 2014 10:16:54 -0300</lastBuildDate>
 
     
     <item>
@@ -1091,7 +1091,7 @@ Link para os cursos: &lt;a href=&quot;http://utd.sct.ce.gov.br/index.php/areas-d
 Para salvar o usuário e senha do git basta executar o seguinte comando dentro de um diretório de um aplicação com git. &lt;br/&gt;
 Se você não quiser que seja salvo o usuário e senha para todos os outros diretorio remova o parametro &lt;b&gt;--global&lt;/b&gt;.&lt;br/&gt;&lt;br/&gt;
 
-SALVA USUARIO E SENHA POR 3600 SEGUNDOS:
+SALVA USUARIO E SENHA POR 8 HORAS:
 
 &lt;script src=&quot;https://gist.github.com/clairtonluz/ae554b398abaf3580416.js&quot;&gt;&lt;/script&gt;
 
