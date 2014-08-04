@@ -6,12 +6,24 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Tue, 22 Jul 2014 09:52:43 -0300</pubDate>
-    <lastBuildDate>Tue, 22 Jul 2014 09:52:43 -0300</lastBuildDate>
+    <pubDate>Mon, 4 Aug 2014 16:22:28 -0300</pubDate>
+    <lastBuildDate>Mon, 4 Aug 2014 16:22:28 -0300</lastBuildDate>
 
     
     <item>
-      <title>Criando validation para cpf e cnpj na mesma anotation</title>
+      <title>Script em python para atualizar todos os repositórios git</title>
+      <link>http://clairtonluz.github.io//blog/2014/08/2014080499.html</link>
+      <pubDate>Mon, 4 Aug 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/08/2014080499.html</guid>
+      <description>
+      
+&lt;script src=&quot;https://gist.github.com/clairtonluz/ee1a7356d9d71e8eaba5.js&quot;&gt;&lt;/script&gt;
+
+	  </description>
+    </item>
+    
+    <item>
+      <title>Criando validation para cpf e cnpj na mesma annotation</title>
       <link>http://clairtonluz.github.io//blog/2014/07/2014072299.html</link>
       <pubDate>Tue, 22 Jul 2014 00:00:00 -0300</pubDate>
       <guid isPermaLink="false">blog/2014/07/2014072299.html</guid>
