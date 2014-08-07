@@ -6,9 +6,40 @@
     <atom:link href="http://clairtonluz.github.io//feed.xml" rel="self" type="application/rss+xml" />
     <description>Clairton Luz Blog</description>
     <language>en-gb</language>
-    <pubDate>Mon, 4 Aug 2014 16:22:28 -0300</pubDate>
-    <lastBuildDate>Mon, 4 Aug 2014 16:22:28 -0300</lastBuildDate>
+    <pubDate>Thu, 7 Aug 2014 12:02:52 -0300</pubDate>
+    <lastBuildDate>Thu, 7 Aug 2014 12:02:52 -0300</lastBuildDate>
 
+    
+    <item>
+      <title>Instalar várias versões do java no linux com alternatives</title>
+      <link>http://clairtonluz.github.io//blog/2014/08/2014080799.html</link>
+      <pubDate>Thu, 7 Aug 2014 00:00:00 -0300</pubDate>
+      <guid isPermaLink="false">blog/2014/08/2014080799.html</guid>
+      <description>
+      
+&lt;ul&gt;
+	&lt;li&gt;Primeiramente baixa as vesões do java que deseja instalar em seu computador, neste exemplo vou baixar a versão 7 e 8 do java.&lt;/li&gt;
+	&lt;li&gt;Agora extraia os as versões escolhidas em qualquer diretório que desejar, no meu caso vou extrair para &lt;b&gt;/usr/lib/jvm&lt;/b&gt;&lt;/li&gt;
+	&lt;li&gt;Após extrair as duas versões do java tenho no meu diretório &lt;b&gt;/usr/lib/jvm&lt;/b&gt; as seguintes pastas &lt;b&gt;jdk1.7.0_65&lt;/b&gt; e &lt;b&gt;jdk1.8.0_11&lt;/b&gt;&lt;/li&gt;
+	&lt;li&gt;Agora basta executar os seguintes commandos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/33a6ed5d37422b6df044.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Agora utilize o seguinte comando para alterar a versão do java que deseja executar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/4c8146c4db4687c65f38.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Entenda as opções que possui o comando alternatives.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://gist.github.com/clairtonluz/827040c24834f2a097b0.js&quot;&gt;&lt;/script&gt;
+
+	  </description>
+    </item>
     
     <item>
       <title>Script em python para atualizar todos os repositórios git</title>
